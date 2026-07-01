@@ -1,0 +1,14 @@
+# --- Utilities ---
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+
+# --- Text Splitting & LLM (for build_learning_contexts.py) ---
+langchain
+langchain-openai
+langchain-text-splitters
+tiktoken
+
+# --- Evaluation (for evaluate.py) ---
+nltk>=3.8.1
+rouge-score>=0.1.2
+bert-score>=0.3.13

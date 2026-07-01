@@ -1,0 +1,2599 @@
+[
+  {
+    "chunk_id": "chunk_00000",
+    "title": "Copyright and Publication Details",
+    "context": "## OBJECT-ORIENTED AND CLASSICAL SOFTWARE ENGINEERING, EIGHTH EDITION  \nPublished by McGraw-Hill, a business unit of The McGraw-Hill Companies, Inc., 1221 Avenue of the Americas, New York, NY 10020. Copyright © 2011 by The McGraw-Hill Companies, Inc. All rights reserved. Previous editions © 2007, 2005, and 2002. No part of this publication may be reproduced or distributed in any form or by any means, or stored in a database or retrieval system, without the prior written consent of The McGraw-Hil Companies, Inc., including, but not limited to, in any network or other electronic storage or transmission, or broadcast for distance learning.  \nSome ancillaries, including electronic and print components, may not be available to customers outside the United States.  \nThis book is printed on acid-free paper.  \n1 2 3 4 5 6 7 8 9 0 DOC/DOC 1 0 9 8 7 6 5 4 3 2 1 0  \nISBN 978-0-07-337618-9 MHID 0-07-337618-3  \nVice President & Editor-in-Chief: Marty Lange Publisher: Raghothaman Srinivasan Vice President EDP & Central Publishing Services: Kimberly Meriwether David Development Editor: Lora Neyens Senior Marketing Manager: Curt Reynolds Project Manager: Melissa M. Leick Buyer: Kara Kudronowicz Design Coordinator: Brenda A. Rolwes Cover Designer: Studio Montage, St. Louis, Missour Cover Image: © Photodisc/Getty Images Compositor: Glyph International Typeface: 10/12 Times Roman Printer: R. R. Donnelley",
+    "question": "What does McGraw-Hill claim as the source of all of their material?",
+    "correct_answer": "The McGraw-Hill Companies, Inc., including, but not limited to, in any network or other electronic storage or transmission, or broadcast for distance learning.",
+    "distractors": [
+      "The McGraw-Hill Companies, Inc.",
+      "The McGraw-Hill Companies, Inc.",
+      "The McGraw-Hill Companies, Inc."
+    ],
+    "options": {
+      "A": "The McGraw-Hill Companies, Inc.",
+      "B": "The McGraw-Hill Companies, Inc.",
+      "C": "The McGraw-Hill Companies, Inc.",
+      "D": "The McGraw-Hill Companies, Inc., including, but not limited to, in any network or other electronic storage or transmission, or broadcast for distance learning."
+    },
+    "answer_key": "D",
+    "metadata": {
+      "timestamp": "2026-07-01T14:42:58.702935",
+      "chunk_token_count": 377,
+      "keywords": [
+        "Copyright",
+        "McGraw-Hill",
+        "ISBN",
+        "Edition",
+        "Publisher"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00001",
+    "title": "Copyright and Cataloging Information",
+    "context": "All credits appearing on page or at the end of the book are considered to be an extension of the copyright page.  \nLibrary of Congress Cataloging-in-Publication Data  \nSchach, Stephen R. Object-oriented and classical software engineering / Stephen R. Schach. — 8th ed. p. cm. ISBN-13: 978-0-07-337618-9 (alk. paper) ISBN-10: 0-07-337618-3 (alk. paper) 1. Software engineering. 2. Object-oriented programming (Computer science) 3. UML (Computer science) 4. C++ (Computer program language) I. Title. QA76.758.S318 2010 005.1’17—dc22  \n2010020995  \nTo Jackson and Mikaela  \nThe following are registered trademarks:",
+    "question": "What are the ISBN-10 and ISBN-13 numbers for the book?",
+    "correct_answer": "0-07-337618-3 (alk. paper) ISBN-13: 978-0-07-337618-9 (alk. paper)",
+    "distractors": [
+      "0.07-337618-3 (alk. paper) ISBN-13: 978-0-07-337618-9 (alk. paper)",
+      "978-0.07-337618-9 (alk. paper) ISBN-10: 0-07-337618-3 (alk. paper)",
+      "978-0-07-337618-9 (alk. paper) ISBN-10: 0-07-337618-3 (alk. paper)"
+    ],
+    "options": {
+      "A": "978-0.07-337618-9 (alk. paper) ISBN-10: 0-07-337618-3 (alk. paper)",
+      "B": "0-07-337618-3 (alk. paper) ISBN-13: 978-0-07-337618-9 (alk. paper)",
+      "C": "0.07-337618-3 (alk. paper) ISBN-13: 978-0-07-337618-9 (alk. paper)",
+      "D": "978-0-07-337618-9 (alk. paper) ISBN-10: 0-07-337618-3 (alk. paper)"
+    },
+    "answer_key": "B",
+    "metadata": {
+      "timestamp": "2026-07-01T14:42:58.703144",
+      "chunk_token_count": 178,
+      "keywords": [
+        "Software engineering",
+        "Object-oriented programming",
+        "UML",
+        "C++",
+        "Copyright"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00002",
+    "title": "Software Tools and Technologies List",
+    "context": "<table><tr><td>ADF</td><td>Jackpot Source Code Metrics</td><td>Rational</td></tr><tr><td>Analyst/Designer</td><td>Java</td><td>Requisite Pro</td></tr><tr><td>Ant</td><td>JBuilder</td><td>Rhapsody</td></tr><tr><td>Apache</td><td>JUnit</td><td>Rose</td></tr><tr><td>Apple</td><td>Linux</td><td>SBC Communications</td></tr><tr><td>AS/400</td><td>Lotus 1-2-3</td><td>SilkTest</td></tr><tr><td>AT&amp;T</td><td>Lucent Technologies</td><td>SLAM</td></tr><tr><td>Bachman Product Set</td><td>MacApp</td><td>Software through Pictures</td></tr><tr><td>Bell Laboratories</td><td>Macintosh</td><td>Solaris</td></tr><tr><td>Borland</td><td>Macintosh Toolbox</td><td>SourceSafe</td></tr><tr><td>Bugzilla</td><td>MacProject</td><td>SPARCstation</td></tr><tr><td>Capability Maturity Model</td><td>Microsoft</td><td>Sun</td></tr><tr><td>Chrome</td><td>Motif</td><td>Sun Enterprise</td></tr><tr><td>ClearCase</td><td>MS-DOS</td><td>Sun Microsystems</td></tr><tr><td>ClearQuest</td><td>MVS/360</td><td>Sun ONE Studio</td></tr><tr><td>CMM</td><td>Natural</td><td>System Architect</td></tr><tr><td>Cocoa</td><td>Netscape</td><td>Together</td></tr><tr><td>Coca-Cola</td><td>New York Times</td><td>UNIX</td></tr><tr><td>CORBA</td><td>Object C</td><td>VAX</td></tr><tr><td>CppUnit</td><td>Objective-C</td><td>Visual Component Library</td></tr><tr><td>CVS</td><td>ObjectWindows Library</td><td>Visual C++</td></tr><tr><td>DB2</td><td>1-800-flowers.com</td><td>Visual",
+    "question": "What company made Rational and Requisite Pro?",
+    "correct_answer": "Rational",
+    "distractors": [
+      "SBC Communications",
+      "Sun Microsystems",
+      "Rational"
+    ],
+    "options": {
+      "A": "Rational",
+      "B": "SBC Communications",
+      "C": "Sun Microsystems",
+      "D": "Rational"
+    },
+    "answer_key": "A",
+    "metadata": {
+      "timestamp": "2026-07-01T14:42:58.703316",
+      "chunk_token_count": 560,
+      "keywords": [
+        "ADF",
+        "Java",
+        "Rational"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00003",
+    "title": "Software Tools and Technologies List",
+    "context": "Library</td><td>Visual C++</td></tr><tr><td>DB2</td><td>1-800-flowers.com</td><td>Visual J++</td></tr><tr><td>Eclipse</td><td>Oracle</td><td>VM/370</td></tr><tr><td>e-Components</td><td>Oracle Developer Suite</td><td>VMS</td></tr><tr><td>Emeraude</td><td>OS/360</td><td>Wall Street Journal</td></tr><tr><td>Enterprise JavaBeans</td><td>OS/370</td><td>WebSphere</td></tr><tr><td>eServer</td><td>OS/VS2</td><td>Win32</td></tr><tr><td>Excel</td><td>Palm Pilot</td><td>Windows 95</td></tr><tr><td>Firefox</td><td>Parasoft</td><td>Windows 2000</td></tr><tr><td>Focus</td><td>Post-It Note</td><td>Windows NT</td></tr><tr><td>Ford</td><td>PowerBuilder</td><td>Word</td></tr><tr><td>Foundation Class Library</td><td>PREfix</td><td>X11</td></tr><tr><td>FoxBASE</td><td>PREfast</td><td>Xrunner</td></tr><tr><td>GCC</td><td>Project</td><td>XUnit</td></tr><tr><td>Hewlett-Packard</td><td>PureCoverage</td><td>Zip disk</td></tr><tr><td>IBM</td><td>PVCS</td><td>ZIP Code</td></tr><tr><td>IMS/360</td><td>QARun</td><td>z10</td></tr></table>",
+    "question": "What was the name of the software that was used on OS/370?",
+    "correct_answer": "Oracle Developer Suite",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "[N/A]",
+      "B": "[N/A]",
+      "C": "Oracle Developer Suite",
+      "D": "[N/A]"
+    },
+    "answer_key": "C",
+    "metadata": {
+      "timestamp": "2026-07-01T14:42:58.703425",
+      "chunk_token_count": 426,
+      "keywords": [
+        "Visual C++",
+        "Eclipse",
+        "Enterprise JavaBeans",
+        "Excel",
+        "GCC"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00004",
+    "title": "Table of Contents: Software Engineering Concepts",
+    "context": "## Contents  \nPreface xiii\nChapter 1\nThe Scope of Software Engineering 1\nLearning Objectives 1\nHistorical Aspects 2\nEconomic Aspects 5\nMaintenance Aspects 6\nClassical and Modern Views of Maintenance 9\nThe Importance of Postdelivery Maintenance 10\nRequirements, Analysis, and Design Aspects 12\nTeam Development Aspects 15\nWhy There Is No Planning Phase 16\nWhy There Is No Testing Phase 16\nWhy There Is No Documentation Phase 17\nThe Object-Oriented Paradigm 18\nThe Object-Oriented Paradigm in Perspective 22\nTerminology 23\nEthical Issues 26\nChapter Review 27\nFor Further Reading 27\nKey Terms 28\nProblems 29\nReferences 30\nPART A\nSOFTWARE ENGINEERING CONCEPTS 35\nChapter 2\nSoftware Life-Cycle Models 37\nLearning Objectives 37\nSoftware Development in Theory 37\nWinburg Mini Case Study 38\nLessons of the Winburg Mini Case Study 42\nTeal Tractors Mini Case Study 42\nIteration and Incrementation 43\nWinburg Mini Case Study Revisited 47\nRisks and Other Aspects of Iteration and Incrementation 48\nManaging Iteration and Incrementation 51\nOther Life-Cycle Models 52\nCode-and-Fix Life-Cycle Model 52\nWaterfall Life-Cycle Model 53\nRapid-Prototyping Life-Cycle Model 55\nOpen-Source Life-Cycle Model 56\nAgile Processes 59\nSynchronize-and-Stabilize Life-Cycle Model 62\nSpiral Life-Cycle Model 62\nComparison of Life-Cycle Models 66\nChapter Review 67\nFor Further Reading 68\nKey Terms 69\nProblems 69\nReferences 70\nChapter 3\nThe Software Process 74\nLearning Objectives 74\nThe Unified Process 76",
+    "question": "What are the three types of software development that the Winburg mini case study used?",
+    "correct_answer": "iterative, incremental, and iterative-incremental",
+    "distractors": [
+      "iterative-incremental, waterfall and open-source",
+      "iterative-incremental, waterfall and spiral",
+      "iterative, waterfall and rapid-prototyping"
+    ],
+    "options": {
+      "A": "iterative-incremental, waterfall and open-source",
+      "B": "iterative-incremental, waterfall and spiral",
+      "C": "iterative, waterfall and rapid-prototyping",
+      "D": "iterative, incremental, and iterative-incremental"
+    },
+    "answer_key": "D",
+    "metadata": {
+      "timestamp": "2026-07-01T14:42:58.703526",
+      "chunk_token_count": 411,
+      "keywords": [
+        "Software Engineering",
+        "Life-Cycle Models",
+        "Unified Process",
+        "Object-Oriented Paradigm",
+        "Agile Processes"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00005",
+    "title": "Chapter 3: The Software Process – Contents",
+    "context": "References 70\nChapter 3\nThe Software Process 74\nLearning Objectives 74\nThe Unified Process 76\nIteration and Incrementation within the Object-Oriented Paradigm 76\nThe Requirements Workflow 78\nThe Analysis Workflow 80\nThe Design Workflow 82\nThe Implementation Workflow 83\nThe Test Workflow 84\n3.7.1 Requirements Artifacts 84\n3.7.2 Analysis Artifacts 84\n3.7.3 Design Artifacts 85\n3.7.4 Implementation Artifacts 85\nPostdelivery Maintenance 87  \n3.9 Retirement 88 3.10 The Phases of the Unifi ed Process 88 3.10.1 The Inception Phase 89 3.10.2 The Elaboration Phase 91 3.10.3 The Construction Phase 92 3.10.4 The Transition Phase 92 3.11 One- versus Two-Dimensional Life-Cycle Models 92 3.12 Improving the Software Process 94 3.13 Capability Maturity Models 95 3.14 Other Software Process Improvement Initiatives 98 3.15 Costs and Benefi ts of Software Process Improvement 99 Chapter Review 101 For Further Reading 102 Key Terms 102 Problems 103 References 104\n\n## Chapter 4",
+    "question": "What is the process called that allows software development to be more repeatable?",
+    "correct_answer": "The Unified Process",
+    "distractors": [
+      "The Software Process",
+      "The Object-Oriented Paradigm",
+      "The Phases of the Unified Process"
+    ],
+    "options": {
+      "A": "The Unified Process",
+      "B": "The Object-Oriented Paradigm",
+      "C": "The Software Process",
+      "D": "The Phases of the Unified Process"
+    },
+    "answer_key": "A",
+    "metadata": {
+      "timestamp": "2026-07-01T14:42:58.703725",
+      "chunk_token_count": 277,
+      "keywords": [
+        "Software Process",
+        "Unified Process",
+        "Requirements Workflow",
+        "Design Workflow",
+        "Test Workflow",
+        "Capability Maturity Models"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00006",
+    "title": "Team Organization and Approaches in Software Engineering",
+    "context": "## Teams 107  \nLearning Objectives 107 4.1 Team Organization 107 4.2 Democratic Team Approach 109 4.2.1 Analysis of the Democratic Team Approach 110 4.3 Classical Chief Programmer Team Approach 110 4.3.1 The New York Times Project 112 4.3.2 Impracticality of the Classical Chief Programmer Team Approach 113 4.4 Beyond Chief Programmer and Democratic Teams 113 4.5 Synchronize-and-Stabilize Teams 117 4.6 Teams for Agile Processes 118 4.7 Open-Source Programming Teams 118 4.8 People Capability Maturity Model 119 4.9 Choosing an Appropriate Team Organization 120 Chapter Review 121 For Further Reading 121 Key Terms 122 Problems 122 References 122",
+    "question": "What does the Democratic Team Approach mean?",
+    "correct_answer": "analysis of the democratic team approach",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "analysis of the democratic team approach",
+      "B": "[N/A]",
+      "C": "[N/A]",
+      "D": "[N/A]"
+    },
+    "answer_key": "A",
+    "metadata": {
+      "timestamp": "2026-07-01T14:42:58.703883",
+      "chunk_token_count": 172,
+      "keywords": [
+        "Team Organization",
+        "Democratic Team Approach",
+        "Chief Programmer Team",
+        "Agile Processes",
+        "Open-Source Teams"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00007",
+    "title": "Chapter 5: The Tools of the Trade",
+    "context": "## Chapter 5  \nThe Tools of the Trade 124 Learning Objectives 124 5.1 Stepwise Refi nement 124 5.1.1 Stepwise Refi nement Mini Case Study 125 5.2 Cost–Benefi t Analysis 130 5.3 Divide-and-Conquer 132 5.4 Separation of Concerns 132 5.5 Software Metrics 133 5.6 CASE 134 5.7 Taxonomy of CASE 135 5.8 Scope of CASE 137 5.9 Software Versions 141 5.9.1 Revisions 141 5.9.2 Variations 142 5.10 Confi guration Control 143 5.10.1 Confi guration Control during Postdelivery Maintenance 145 5.10.2 Baselines 145 5.10.3 Confi guration Control during Development 146 5.11 Build Tools 146 5.12 Productivity Gains with CASE Technology 147 Chapter Review 149 For Further Reading 149 Key Terms 150 Problems 150 References 151\n\n## Chapter 6",
+    "question": "What is the main goal of Stepwise Refi nement?",
+    "correct_answer": "Stepwise Refi nement is the process of evaluating the cost of each step of a project to ensure that the total cost is reasonable.",
+    "distractors": [
+      "Stepwise Refi nement is a process for checking the cost of each step of a project.",
+      "Stepwise Refi nement is a process for evaluating the cost of each step of a project.",
+      "Stepwise Refi nement is a process for checking the benefits of each step of a project."
+    ],
+    "options": {
+      "A": "Stepwise Refi nement is a process for checking the cost of each step of a project.",
+      "B": "Stepwise Refi nement is a process for checking the benefits of each step of a project.",
+      "C": "Stepwise Refi nement is the process of evaluating the cost of each step of a project to ensure that the total cost is reasonable.",
+      "D": "Stepwise Refi nement is a process for evaluating the cost of each step of a project."
+    },
+    "answer_key": "C",
+    "metadata": {
+      "timestamp": "2026-07-01T14:42:58.703998",
+      "chunk_token_count": 239,
+      "keywords": [
+        "Stepwise Refinement",
+        "Cost–Benefit Analysis",
+        "Separation of Concerns",
+        "Software Metrics",
+        "CASE"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00008",
+    "title": "Testing Chapter Overview",
+    "context": "## Testing 154  \nLearning Objectives 154 6.1 Quality Issues 155 6.1.1 Software Quality Assurance 156 6.1.2 Managerial Independence 156 6.2 Non-Execution-Based Testing 157 6.2.1 Walkthroughs 158 6.2.2 Managing Walkthroughs 158 6.2.3 Inspections 159 6.2.4 Comparison of Inspections and Walkthroughs 161  \n6.2.5 Strengths and Weaknesses of Reviews 162 6.2.6 Metrics for Inspections 162 6.3 Execution-Based Testing 162 6.4 What Should Be Tested? 163 6.4.1 Utility 164 6.4.2 Reliability 164 6.4.3 Robustness 165 6.4.4 Performance 165 6.4.5 Correctness 166 6.5 Testing versus Correctness Proofs 167 6.5.1 Example of a Correctness Proof 167 6.5.2 Correctness Proof Mini Case Study 171 6.5.3 Correctness Proofs and Software Engineering 172 6.6 Who Should Perform Execution-Based Testing? 175 6.7 When Testing Stops 176 Chapter Review 176 For Further Reading 177 Key Terms 177 Problems 178 References 179",
+    "question": "What are metrics used for?",
+    "correct_answer": "Inspections",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "[N/A]",
+      "B": "[N/A]",
+      "C": "Inspections",
+      "D": "[N/A]"
+    },
+    "answer_key": "C",
+    "metadata": {
+      "timestamp": "2026-07-01T14:42:58.704164",
+      "chunk_token_count": 293,
+      "keywords": [
+        "Testing",
+        "Software Quality Assurance",
+        "Walkthroughs",
+        "Inspections",
+        "Execution-Based Testing",
+        "Correctness"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00010",
+    "title": "Reusability and Portability in Software Engineering",
+    "context": "## Reusability and Portability 225 Reusability and Portability 225  \nLearning Objectives 225 8.1 Reuse Concepts 226 8.2 Impediments to Reuse 228 8.3 Reuse Case Studies 229 8.3.1 Raytheon Missile Systems Division 230 8.3.2 European Space Agency 231 8.4 Objects and Reuse 232 8.5 Reuse during Design and Implementation 232 8.5.1 Design Reuse 232 8.5.2 Application Frameworks 234 8.5.3 Design Patterns 235 8.5.4 Software Architecture 236 8.5.5 Component-Based Software Engineering 237 8.6 More on Design Patterns 237 8.6.1 FLIC Mini Case Study 238 8.6.2 Adapter Design Pattern 239 8.6.3 Bridge Design Pattern 240 8.6.4 Iterator Design Pattern 241 8.6.5 Abstract Factory Design Pattern 241 8.7 Categories of Design Patterns 245 8.8 Strengths and Weaknesses of Design Patterns 247 8.9 Reuse and the World Wide Web 248  \n8.10 Reuse and Postdelivery Maintenance 249 8.11 Portability 250 8.11.1 Hardware Incompatibilities 250 8.11.2 Operating System Incompatibilities 251 8.11.3 Numerical Software Incompatibilities 251 8.11.4 Compiler Incompatibilities 253 8.12 Why Portability? 255 8.13 Techniques for Achieving Portability 256 8.13.1 Portable System Software 257 8.13.2 Portable Application Software 257 8.13.3 Portable Data 258 8.13.4 Model-Driven Architecture 259 Chapter Review 259 For Further Reading 260 Key Terms 261 Problems 261 References 263\n\n## CHAPTER 9",
+    "question": "What is the name of the European Space Agency project?",
+    "correct_answer": "European Space Agency",
+    "distractors": [
+      "Raytheon Missile Systems Division",
+      "FLIC Mini Case Study",
+      "European Space Agency"
+    ],
+    "options": {
+      "A": "Raytheon Missile Systems Division",
+      "B": "European Space Agency",
+      "C": "European Space Agency",
+      "D": "FLIC Mini Case Study"
+    },
+    "answer_key": "B",
+    "metadata": {
+      "timestamp": "2026-07-01T14:42:58.704298",
+      "chunk_token_count": 421,
+      "keywords": [
+        "Reusability",
+        "Portability",
+        "Design Patterns",
+        "Component-Based Software Engineering",
+        "Model-Driven Architecture"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00011",
+    "title": "Planning and Estimating in Software Engineering",
+    "context": "## Planning and Estimating 268  \nLearning Objectives 268 9.1 Planning and the Software Process 268 9.2 Estimating Duration and Cost 270 9.2.1 Metrics for the Size of a Product 272 9.2.2 Techniques of Cost Estimation 275 9.2.3 Intermediate COCOMO 278 9.2.4 COCOMO II 281 9.2.5 Tracking Duration and Cost Estimates 282 9.3 Components of a Software Project Management Plan 282 9.4 Software Project Management Plan Framework 284 9.5 IEEE Software Project Management Plan 286 9.6 Planning Testing 288 9.7 Planning Object-Oriented Projects 289 9.8 Training Requirements 290 9.9 Documentation Standards 291 9.10 CASE Tools for Planning and Estimating 292 9.11 Testing the Software Project Management Plan 292  \nChapter Review 292 For Further Reading 292 Key Terms 293 Problems 294 References 295\n\n## PART B  \nSOFTWARE LIFE CYCLE 299",
+    "question": "What are the components of a software project management plan?",
+    "correct_answer": "Components of a Software Project Management Plan 282 9.3",
+    "distractors": [
+      "Components of a Software Project Management Plan",
+      "Intermediate COCOMO 278 9.2.3",
+      "Software Project Management Plan Framework 284 9.4"
+    ],
+    "options": {
+      "A": "Intermediate COCOMO 278 9.2.3",
+      "B": "Components of a Software Project Management Plan 282 9.3",
+      "C": "Software Project Management Plan Framework 284 9.4",
+      "D": "Components of a Software Project Management Plan"
+    },
+    "answer_key": "B",
+    "metadata": {
+      "timestamp": "2026-07-01T14:42:58.704446",
+      "chunk_token_count": 227,
+      "keywords": [
+        "Planning",
+        "Estimating",
+        "COCOMO II",
+        "Software Project Management Plan",
+        "Testing"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00012",
+    "title": "Chapter 10: Software Development Overview",
+    "context": "## Chapter 10  \nLearning Objective 301 10.1 Software Development: Theory versus Practice 301 10.2 Iteration and Incrementation 302 10.3 The Unifi ed Process 306 10.4 Workfl ow Overview 307 10.5 Teams 307 10.6 Cost–Benefi t Analysis 308 10.7 Metrics 308 10.8 CASE 308 10.9 Versions and Confi gurations 309 10.10 Testing Terminology 309 10.11 Execution-Based and Non-Execution-Based Testing 309 10.12 Modularity 310 10.13 Reuse 310 10.14 Software Project Management Plan 310 Chapter Review 311 Key Terms 311 Problems 312",
+    "question": "What is a major aspect of the unified process?",
+    "correct_answer": "Iteration and Incrementation",
+    "distractors": [
+      "Iteration",
+      "Case",
+      "Review"
+    ],
+    "options": {
+      "A": "Iteration and Incrementation",
+      "B": "Review",
+      "C": "Iteration",
+      "D": "Case"
+    },
+    "answer_key": "A",
+    "metadata": {
+      "timestamp": "2026-07-01T14:42:58.704570",
+      "chunk_token_count": 158,
+      "keywords": [
+        "Software Development",
+        "Iteration",
+        "Unified Process",
+        "Testing",
+        "Modularity",
+        "Reuse"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00013",
+    "title": "Chapter 11: Requirements Overview",
+    "context": "## Chapter 11 Requirements 313  \nLearning Objectives 313 11.1 Determining What the Client Needs 313 11.2 Overview of the Requirements Workfl ow 314 11.3 Understanding the Domain 315 11.4 The Business Model 316 11.4.1 Interviewing 316 11.4.2 Other Techniques 317 11.4.3 Use Cases 318  \n11.5 Initial Requirements 319 11.6 Initial Understanding of the Domain: The MSG Foundation Case Study 320 11.7 Initial Business Model: The MSG Foundation Case Study 322 11.8 Initial Requirements: The MSG Foundation Case Study 326 11.9 Continuing the Requirements Workfl ow: The MSG Foundation Case Study 328 11.10 Revising the Requirements: The MSG Foundation Case Study 330 11.11 The Test Workflow: The MSG Foundation Case Study 338 11.12 The Classical Requirements Phase 347 11.13 Rapid Prototyping 348 11.14 Human Factors 349 11.15 Reusing the Rapid Prototype 351 11.16 CASE Tools for the Requirements Workfl ow 353 11.17 Metrics for the Requirements Workfl ow 353 11.18 Challenges of the Requirements Workfl ow 354 Chapter Review 355 For Further Reading 356 Key Terms 357 Case Study Key Terms 357 Problems 357 References 358",
+    "question": "What do you call the process of refining the initial requirements?",
+    "correct_answer": "Continuing the Requirements Workfl ow",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "[N/A]",
+      "B": "[N/A]",
+      "C": "[N/A]",
+      "D": "Continuing the Requirements Workfl ow"
+    },
+    "answer_key": "D",
+    "metadata": {
+      "timestamp": "2026-07-01T14:42:58.704681",
+      "chunk_token_count": 293,
+      "keywords": [
+        "Requirements",
+        "Workflow",
+        "Domain",
+        "Business Model",
+        "Use Cases",
+        "MSG Foundation"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00014",
+    "title": "Chapter 12: Classical Analysis Overview",
+    "context": "## Chapter 12 Chapter 12  \nClassical Analysis 360 Learning Objectives 360 12.1 The Specifi cation Document 360 12.2 Informal Specifi cations 362 12.2.1 Correctness Proof Mini Case Study Redux 363 12.3 Structured Systems Analysis 364 12.3.1 Sally’s Software Shop Mini Case Study 364 12.4 Structured Systems Analysis: The MSG Foundation Case Study 372 12.5 Other Semiformal Techniques 373 12.6 Entity-Relationship Modeling 374  \n12.7 Finite State Machines 376 12.7.1 Finite State Machines: The Elevator Problem Case Study 378 12.8 Petri Nets 382 12.8.1 Petri Nets: The Elevator Problem Case Study 385 12.9 Z 387 12.9.1 Z: The Elevator Problem Case Study 388 12.9.2 Analysis of Z 390 12.10 Other Formal Techniques 392 12.11 Comparison of Classical Analysis Techniques 392 12.12 Testing during Classical Analysis 393 12.13 CASE Tools for Classical Analysis 394 12.14 Metrics for Classical Analysis 395 12.15 Software Project Management Plan: The MSG Foundation Case Study 395 12.16 Challenges of Classical Analysis 396 Chapter Review 396 For Further Reading 397 Key Terms 398 Case Study Key Terms 398 Problems 398 References 400",
+    "question": "What type of problem is the Elevator problem?",
+    "correct_answer": "Finite State Machines",
+    "distractors": [
+      "Petri Nets",
+      "Informal Specifi cations",
+      "Z"
+    ],
+    "options": {
+      "A": "Finite State Machines",
+      "B": "Petri Nets",
+      "C": "Z",
+      "D": "Informal Specifi cations"
+    },
+    "answer_key": "A",
+    "metadata": {
+      "timestamp": "2026-07-01T14:42:58.704788",
+      "chunk_token_count": 309,
+      "keywords": [
+        "Classical Analysis",
+        "Specification Document",
+        "Structured Systems Analysis",
+        "Entity-Relationship Modeling",
+        "Finite State Machines"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00015",
+    "title": "Chapter 13 Object-Oriented Analysis Sections",
+    "context": "Chapter 13 Object-Oriented Analysis 404 Learning Objectives 404 13.1 The Analysis Workfl ow 405 13.2 Extracting the Entity Classes 406 13.3 Object-Oriented Analysis: The Elevator Problem Case Study 407 13.4 Functional Modeling: The Elevator Problem Case Study 407 13.5 Entity Class Modeling: The Elevator Problem Case Study 410 13.5.1 Noun Extraction 411 13.5.2 CRC Cards 413 13.6 Dynamic Modeling: The Elevator Problem Case Study 414 13.7 The Test Workfl ow: Object-Oriented Analysis 417 13.8 Extracting the Boundary and Control Classes 424  \n13.9 The Initial Functional Model: The MSG Foundation Case Study 425\n13.10 The Initial Class Diagram: The MSG Foundation Case Study 428\n13.11 The Initial Dynamic Model: The MSG Foundation Case Study 430\n13.12 Revising the Entity Classes: The MSG Foundation Case Study 432\n13.13 Extracting the Boundary Classes: The MSG Foundation Case Study 434\n13.14 Extracting the Control Classes: The MSG Foundation Case Study 435\n13.15 Use-Case Realization: The MSG Foundation Case Study 435\n13.15.1 Estimate Funds Available for Week Use Case 436\n13.15.2 Manage an Asset Use Case 442\n13.15.3 Update Estimated Annual Operating Expenses Use Case 446\n13.15.4 Produce a Report Use Case 449\n13.16 Incrementing the Class Diagram: The MSG Foundation Case Study 454\n13.17 The Test Workflow: The MSG Foundation Case Study 456\n13.18 The Specification Document in the Unified Process 456\n13.19 More on Actors and Use Cases 457",
+    "question": "What is the Unified Process?",
+    "correct_answer": "The Specification Document in the Unified Process",
+    "distractors": [
+      "The Test Workflow in the Unified Process",
+      "The Object-Oriented Analysis in the Unified Process",
+      "The Workfl ow of Object-Oriented Analysis"
+    ],
+    "options": {
+      "A": "The Test Workflow in the Unified Process",
+      "B": "The Specification Document in the Unified Process",
+      "C": "The Workfl ow of Object-Oriented Analysis",
+      "D": "The Object-Oriented Analysis in the Unified Process"
+    },
+    "answer_key": "B",
+    "metadata": {
+      "timestamp": "2026-07-01T14:42:58.704938",
+      "chunk_token_count": 382,
+      "keywords": [
+        "Object-Oriented Analysis",
+        "Elevator Problem",
+        "MSG Foundation",
+        "Use Case",
+        "Class Diagram"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00016",
+    "title": "Chapters 13-15 Outline: Specification, Design, Implementation",
+    "context": "13.18 The Specification Document in the Unified Process 456\n13.19 More on Actors and Use Cases 457\n13.20 CASE Tools for the Object-Oriented Analysis Workflow 458\n13.21 Metrics for the Object-Oriented Analysis Workflow 459\n13.22 Challenges of the Object-Oriented Analysis Workflow 459\nChapter Review 460\nFor Further Reading 461\nKey Terms 462\nProblems 462\nReferences 463  \nChapter 14\nDesign 465  \nLearning Objectives 465\nDesign and Abstraction 466\nOperation-Oriented Design 466  \n14.3 Data Flow Analysis 467\n14.3.1 Mini Case Study Word Counting 468\n14.3.2 Data Flow Analysis Extensions 473\n14.4 Transaction Analysis 473\n14.5 Data-Oriented Design 475\n14.6 Object-Oriented Design 476\n14.7 Object-Oriented Design: The Elevator Problem Case Study 477\n14.8 Object-Oriented Design: The MSG Foundation Case Study 481\n14.9 The Design Workflow 483\n14.10 The Test Workflow: Design 487\n14.11 The Test Workflow: The MSG Foundation Case Study 488\n14.12 Formal Techniques for Detailed Design 488\n14.13 Real-Time Design Techniques 488\n14.14 CASE Tools for Design 490\n14.15 Metrics for Design 490\n14.16 Challenges of the Design Workflow 491 Chapter Review 492 For Further Reading 493 Key Terms 493 Problems 494 References 495  \nChapter 15\nImplementation 498  \nLearning Objectives 498\nChoice of Programming Language 498\nFourth-Generation Languages 501 Good Programming Practice 504\n15.1 Choice of Programming Language 498\n15.2 Fourth-Generation Languages 501\n15.3 Good Programming Practice 504",
+    "question": "What is the name of the case study for the MSG Foundation?",
+    "correct_answer": "The MSG Foundation Case Study",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "[N/A]",
+      "B": "[N/A]",
+      "C": "[N/A]",
+      "D": "The MSG Foundation Case Study"
+    },
+    "answer_key": "D",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:19.716762",
+      "chunk_token_count": 391,
+      "keywords": [
+        "Specification Document",
+        "Object-Oriented Analysis",
+        "Design Workflow",
+        "Implementation"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00017",
+    "title": "Table of Contents for Software Engineering Chapter 15",
+    "context": "15.2 Fourth-Generation Languages 501\n15.3 Good Programming Practice 504\n15.3.1 Use of Consistent and Meaningful Variable Names 504\n15.3.2 The Issue of Self-Documenting Code 505\n15.3.3 Use of Parameters 507\n15.3.4 Code Layout for Increased Readability 507\n15.3.5 Nested if Statements 507  \nCoding Standards 509\nCode Reuse 510\nIntegration 510  \nLearning Objectives 465\nDesign and Abstraction 466\nOperation-Oriented Design 466",
+    "question": "What are some ways to increase readability?",
+    "correct_answer": "Use of Parameters, Code Layout for Increased Readability",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "[N/A]",
+      "B": "[N/A]",
+      "C": "Use of Parameters, Code Layout for Increased Readability",
+      "D": "[N/A]"
+    },
+    "answer_key": "C",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:19.716925",
+      "chunk_token_count": 123,
+      "keywords": [
+        "Fourth-Generation Languages",
+        "Good Programming Practice",
+        "Coding Standards",
+        "Code Reuse",
+        "Integration"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00018",
+    "title": "Chapter 15 Implementation and Testing Workflows",
+    "context": "15.6.4 Integration of Object-Oriented Products 514 15.6.5 Management of Integration 515 15.7 The Implementation Workfl ow 516 15.8 The Implementation Workfl ow: The MSG Foundation Case Study 516 15.9 The Test Workfl ow: Implementation 516 15.10 Test Case Selection 517 15.10.1 Testing to Specifi cations versus Testing to Code 517 15.10.2 Feasibility of Testing to Specifi cations 517 15.10.3 Feasibility of Testing to Code 518 15.11 Black-Box Unit-Testing Techniques 520 15.11.1 Equivalence Testing and Boundary Value Analysis 521 15.11.2 Functional Testing 522 15.12 Black-Box Test Cases: The MSG Foundation Case Study 523 15.13 Glass-Box Unit-Testing Techniques 525 15.13.1 Structural Testing: Statement, Branch, and Path Coverage 526 15.13.2 Complexity Metrics 527 15.14 Code Walkthroughs and Inspections 528 15.15 Comparison of Unit-Testing Techniques 528 15.16 Cleanroom 529 15.17 Potential Problems When Testing Objects 530 15.18 Management Aspects of Unit Testing 533 15.19 When to Reimplement Rather than Debug a Code Artifact 533 15.20 Integration Testing 535 15.21 Product Testing 535 15.22 Acceptance Testing 536 15.23 The Test Workflow: The MSG Foundation Case Study 537 15.24 CASE Tools for Implementation 537 15.24.1 CASE Tools for the Complete Software Process 538 15.24.2 Integrated Development Environments 538 15.24.3 Environments for Business Applications 539 15.24.4 Public Tool Infrastructures 540 15.24.5 Potential Problems with Environments 540\n\n15.25 CASE Tools for the Test Workfl ow 540 15.26 Metrics for the Implementation Workfl ow 541 15.27 Challenges of the Implementation Workfl ow 542 Chapter Review 542 For Further Reading 543 Key Terms 544 Problems 545 References 547",
+    "question": "What is the purpose of testing to specifications versus testing to code?",
+    "correct_answer": "Equivalence Testing and Boundary Value Analysis",
+    "distractors": [
+      "Feasibility of Testing to Code",
+      "Feasibility of Testing to specifications",
+      "Feasibility of Testing to specifications and Testing to code"
+    ],
+    "options": {
+      "A": "Equivalence Testing and Boundary Value Analysis",
+      "B": "Feasibility of Testing to specifications",
+      "C": "Feasibility of Testing to specifications and Testing to code",
+      "D": "Feasibility of Testing to Code"
+    },
+    "answer_key": "A",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:19.716998",
+      "chunk_token_count": 469,
+      "keywords": [
+        "Object-Oriented Integration",
+        "Test Workflow",
+        "CASE Tools",
+        "Black-Box Testing",
+        "Glass-Box Testing"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00019",
+    "title": "Postdelivery Maintenance in Software Engineering",
+    "context": "## Chapter 16  \nPostdelivery Maintenance 551 Learning Objectives 551 16.1 Development and Maintenance 551 16.2 Why Postdelivery Maintenance Is Necessary 553 16.3 What Is Required of Postdelivery Maintenance Programmers? 553 16.4 Postdelivery Maintenance Mini Case Study 555 16.5 Management of Postdelivery Maintenance 557 16.5.1 Defect Reports 557 16.5.2 Authorizing Changes to the Product 558 16.5.3 Ensuring Maintainability 559 16.5.4 Problem of Repeated Maintenance 559 16.6 Maintenance of Object-Oriented Software 560 16.7 Postdelivery Maintenance Skills versus Development Skills 563 16.8 Reverse Engineering 563 16.9 Testing during Postdelivery Maintenance 564 16.10 CASE Tools for Postdelivery Maintenance 565 16.11 Metrics for Postdelivery Maintenance 566 16.12 Postdelivery Maintenance: The MSG Foundation Case Study 566 16.13 Challenges of Postdelivery Maintenance 566 Chapter Review 566 For Further Reading 567  \nKey Terms 567 Problems 567 References 568",
+    "question": "What is required of postdelivery maintenance programmers?",
+    "correct_answer": "What Is Required of Postdelivery Maintenance Programmers?",
+    "distractors": [
+      "Why Postdelivery Maintenance Is Necessary",
+      "Development and Maintenance",
+      "What Is Required of Postdelivery Maintenance Programmers?"
+    ],
+    "options": {
+      "A": "Why Postdelivery Maintenance Is Necessary",
+      "B": "Development and Maintenance",
+      "C": "What Is Required of Postdelivery Maintenance Programmers?",
+      "D": "What Is Required of Postdelivery Maintenance Programmers?"
+    },
+    "answer_key": "C",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:19.717089",
+      "chunk_token_count": 239,
+      "keywords": [
+        "Postdelivery Maintenance",
+        "Defect Reports",
+        "Reverse Engineering",
+        "CASE Tools",
+        "Metrics"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00020",
+    "title": "Chapters 17 and 18: UML and Emerging Technologies",
+    "context": "Key Terms 567 Problems 567 References 568  \nChapter 17 More on UML 571 Learning Objectives 571 17.1 UML Is Not a Methodology 571 17.2 Class Diagrams 572 17.2.1 Aggregation 573 17.2.2 Multiplicity 574 17.2.3 Composition 575 17.2.4 Generalization 576 17.2.5 Association 576 17.3 Notes 577 17.4 Use-Case Diagrams 577 17.5 Stereotypes 577 17.6 Interaction Diagrams 579 17.7 Statecharts 581 17.8 Activity Diagrams 583 17.9 Packages 585 17.10 Component Diagrams 586 17.11 Deployment Diagrams 586 17.12 Review of UML Diagrams 587 17.13 UML and Iteration 587 Chapter Review 587 For Further Reading 588 Key Terms 588 Problems 588 References 589  \nChapter 18 Emerging Technologies 590 Learning Objectives 590 18.1 Aspect-Oriented Technology 591 18.2 Model-Driven Technology 593 18.3 Component-Based Technology 594 18.4 Service-Oriented Technology 594 18.5 Comparison of Service-Oriented and Component-Based Technology 595 18.6 Social Computing 596 18.7 Web Engineering 596  \n18.8 Cloud Technology 597 18.9 Web 3.0 598 18.10 Computer Security 598 18.11 Model Checking 598 18.12 Present and Future 599 Chapter Review 599 For Further Reading 599 Key Terms 599 References 600",
+    "question": "What is the main idea of Chapter 18?",
+    "correct_answer": "Emerging Technologies",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "Emerging Technologies",
+      "B": "[N/A]",
+      "C": "[N/A]",
+      "D": "[N/A]"
+    },
+    "answer_key": "A",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:19.717170",
+      "chunk_token_count": 361,
+      "keywords": [
+        "UML",
+        "Class Diagrams",
+        "Use-Case Diagrams",
+        "Aspect-Oriented Technology",
+        "Model-Driven Technology",
+        "Cloud Technology"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00021",
+    "title": "Team-Based Software Development Projects and Curricula",
+    "context": "Bibliography 601 Appendix A Term Project: Chocoholics Anonymous 627 Appendix B Software Engineering Resources 630 Appendix C Requirements Workflow: The MSG Foundation Case Study 632 Appendix D Structured Systems Analysis: The MSG Foundation Case Study 633 Appendix E Analysis Workflow: The MSG Foundation Case Study 636 Appendix F Software Project Management Plan: The MSG Foundation Case Study 637 Appendix G Design Workflow: The MSG Foundation Case Study 642 Appendix H Implementation Workflow: The MSG Foundation Case Study (C++ Version) 647 Appendix I Implementation Workflow: The MSG Foundation Case Study (Java Version) 648 Appendix J Test Workflow: The MSG Foundation Case Study 649  \nAuthor Index 651  \nSubject Index 654  \nAlmost every computer science and computer engineering curriculum now includes a required team-based software development project. In some cases, the project is only one semester or quarter in length, but a year-long team-based software development project is fast becoming the norm.  \nIn an ideal world, every student would complete a course in software engineering before starting his or her team-based project (“two-stage curriculum”). In practice, however, many students have to start their projects partway through their software engineering course, or even at the beginning of the course (“parallel curriculum”).  \nAs explained in the next section, this book is organized in such a way that it can be used for both curricula.",
+    "question": "What is the ideal curriculum?",
+    "correct_answer": "two-stage curriculum",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "two-stage curriculum",
+      "B": "[N/A]",
+      "C": "[N/A]",
+      "D": "[N/A]"
+    },
+    "answer_key": "A",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:19.717279",
+      "chunk_token_count": 278,
+      "keywords": [
+        "team-based project",
+        "software engineering",
+        "two-stage curriculum",
+        "parallel curriculum"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00022",
+    "title": "Organization of the Eighth Edition",
+    "context": "## How the Eighth Edition Is Organized  \nThe book comprises two main parts: Part B teaches the students how to develop a software product; Part A provides the necessary theoretical background for Part B. The 18 chapters are organized as follows:  \n<table><tr><td></td><td>Chapter 1</td><td>Introduction to software engineering</td></tr><tr><td>Part A</td><td>Chapters 2 through 9</td><td>Software engineering concepts</td></tr><tr><td>Part B</td><td>Chapters 10 through 17</td><td>Software engineering techniques</td></tr><tr><td></td><td>Chapter 18</td><td>Emerging technologies</td></tr></table>  \nChapter 10 is new. It contains a summary of the key material of Part A. When the two-stage curriculum is followed, the instructor teaches fi rst Part A and then Part B (omitting Chapter 10, because the material of Chapter 10 will have been covered in depth in Part A). For the parallel curriculum, the instructor fi rst teaches Part B (so that the students can start their projects as soon as possible), and then Part A. The material of Chapter 10 enables the students to understand Part B without fi rst covering Part A.",
+    "question": "What are the two main parts of the Eighth Edition?",
+    "correct_answer": "Part B teaches the students how to develop a software product; Part A provides the necessary theoretical background for Part B",
+    "distractors": [
+      "Part B teaches the students how to develop a software product; Part A provides the necessary theoretical background for Part B and Chapter 10.",
+      "Part B teaches the students how to develop a software product; Part A provides the necessary theoretical background for Part B and Part A.",
+      "Part A provides the necessary theoretical background for Part B; Part B teaches the students how to develop a software product."
+    ],
+    "options": {
+      "A": "Part A provides the necessary theoretical background for Part B; Part B teaches the students how to develop a software product.",
+      "B": "Part B teaches the students how to develop a software product; Part A provides the necessary theoretical background for Part B and Chapter 10.",
+      "C": "Part B teaches the students how to develop a software product; Part A provides the necessary theoretical background for Part B and Part A.",
+      "D": "Part B teaches the students how to develop a software product; Part A provides the necessary theoretical background for Part B"
+    },
+    "answer_key": "D",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:19.717514",
+      "chunk_token_count": 277,
+      "keywords": [
+        "software engineering",
+        "Part A",
+        "Part B",
+        "Chapter 10",
+        "curriculum"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00023",
+    "title": "Teaching Theory After Practice in Software Engineering Education",
+    "context": "This latter approach seems counterintuitive: Surely theory should always be taught before practice. In fact, curricular issues have forced many of the instructors who have used the seventh edition of this book to teach the material of Part B before Part A. Surprisingly, they have been most satisfi ed with the outcome. They report that their students have a greater appreciation of the theoretical material of Part A as a consequence of their project work. That is, team-based project work makes students more receptive to and understanding of the theoretical concepts that underlie software engineering.  \nIn more detail, the material of the eighth edition may be taught in the following two ways:",
+    "question": "What do the instructors who used the seventh edition of the book say about teaching the material of Part B before Part A?",
+    "correct_answer": "they have been most satisfi ed with the outcome",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "they have been most satisfi ed with the outcome",
+      "B": "[N/A]",
+      "C": "[N/A]",
+      "D": "[N/A]"
+    },
+    "answer_key": "A",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:19.717735",
+      "chunk_token_count": 131,
+      "keywords": [
+        "teaching order",
+        "theory vs practice",
+        "team-based projects",
+        "software engineering curriculum",
+        "student appreciation"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00024",
+    "title": "Two-Stage Curriculum Overview",
+    "context": "## 1. Two-Stage Curriculum  \n<table><tr><td></td><td>Chapter 1 (Introduction to software engineering)</td></tr><tr><td>Part A</td><td>Chapters 2 through 9 (Software engineering concepts)</td></tr><tr><td rowspan=\"3\">Part B</td><td>Chapters 11 through 17 (Software engineering techniques)</td></tr><tr><td>Chapter 18 (Emerging technologies)</td></tr><tr><td>The students then commence their team-based projects in the following semester or quarter.</td></tr></table>",
+    "question": "What is the name of the first part of the two-stage curriculum?",
+    "correct_answer": "Part A",
+    "distractors": [
+      "Part B",
+      "Part C",
+      "Part D"
+    ],
+    "options": {
+      "A": "Part D",
+      "B": "Part A",
+      "C": "Part B",
+      "D": "Part C"
+    },
+    "answer_key": "B",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:19.717894",
+      "chunk_token_count": 129,
+      "keywords": [
+        "Two-Stage Curriculum",
+        "Software engineering concepts",
+        "Software engineering techniques",
+        "Emerging technologies",
+        "Team-based projects"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00025",
+    "title": "Parallel Curriculum Structure",
+    "context": "## 2. Parallel Curriculum  \n<table><tr><td rowspan=\"3\"></td><td>Chapter 1 (Introduction to software engineering)</td></tr><tr><td>Chapter 10 (Key material from Part A)</td></tr><tr><td>The students now commence their team-based projects, in parallel with studying the material of Part B.</td></tr><tr><td>Part B</td><td>Chapters 11 through 17 (Software engineering techniques)</td></tr><tr><td rowspan=\"2\">Part A</td><td>Chapters 2 through 9 (Software engineering concepts)</td></tr><tr><td>Chapter 18 (Emerging technologies)</td></tr></table>",
+    "question": "What is the final part of the curriculum?",
+    "correct_answer": "Part B",
+    "distractors": [
+      "Part A",
+      "Part C",
+      "Part D"
+    ],
+    "options": {
+      "A": "Part D",
+      "B": "Part C",
+      "C": "Part A",
+      "D": "Part B"
+    },
+    "answer_key": "D",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:19.718000",
+      "chunk_token_count": 152,
+      "keywords": [
+        "Parallel Curriculum",
+        "Part A",
+        "Part B",
+        "Software engineering techniques",
+        "Emerging technologies"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00026",
+    "title": "New Features in Eighth Edition Software Engineering Textbook",
+    "context": "## New Features of the Eighth Edition  \n• The book has been updated throughout.  \n• I have added two new chapters. As previously explained, Chapter 10, a summary of key points of Part A, has been included so that this book can be used when students start their team-based term projects in parallel with their software engineering course. The other new chapter, Chapter 18, gives an overview of 10 emerging technologies, including  \n• Aspect-oriented technology  \n• Model-driven technology  \n• Component-based technology  \n• Service-oriented technology  \n• Social computing  \n• Web engineering  \n• Cloud technology  \n• Web 3.0  \n• Computer security  \n• Model checking  \n• I have considerably expanded the material on design patterns in Chapter 8, including a new mini case study.  \n• Two theoretical tools have been added to Chapter 5: divide-and-conquer, and separation of concerns.  \n• The object-oriented analysis of the elevator problem of Chapter 13 now refl ects a modern distributed, decentralized architecture.  \n• The references have been extensively updated, with an emphasis on current research.  \n• There are well over 100 new problems.  \n• There are new Just in Case You Wanted to Know boxes.",
+    "question": "What has been added to Chapter 8?",
+    "correct_answer": "design patterns",
+    "distractors": [
+      "software engineering",
+      "new mini case study",
+      "distributed architecture"
+    ],
+    "options": {
+      "A": "distributed architecture",
+      "B": "design patterns",
+      "C": "software engineering",
+      "D": "new mini case study"
+    },
+    "answer_key": "B",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:19.718115",
+      "chunk_token_count": 246,
+      "keywords": [
+        "new chapters",
+        "design patterns",
+        "emerging technologies",
+        "divide-and-conquer",
+        "separation of concerns"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00027",
+    "title": "Features Retained from the Seventh Edition",
+    "context": "## Features Retained from the Seventh Edition  \n• The Unifi ed Process is still largely the methodology of choice for object-oriented software development. Throughout this book, the student is therefore exposed to both the theory and the practice of the Unifi ed Process.  \n• In Chapter 1, the strengths of the object-oriented paradigm are analyzed in depth.  \n• The iterative-and-incremental life-cycle model has been introduced as early as possible, namely, in Chapter 2. Furthermore, as with all previous editions, numerous other life-cycle models are presented, compared, and contrasted. Particular attention is paid to agile processes.  \n• In Chapter 3 (“The Software Process”), the workfl ows (activities) and processes of the Unifi ed Process are introduced, and the need for two-dimensional life-cycle models is explained.  \n• A wide variety of ways of organizing software teams are presented in Chapter 4 (“Teams”), including teams for agile processes and for open-source software development.  \n• Chapter 5 (“The Tools of the Trade”) includes information on important classes of CASE tools.  \n• The importance of continual testing is stressed in Chapter 6 (“Testing”).  \n• Objects continue to be the focus of attention in Chapter 7 (“From Modules to Objects”).  \n• Design patterns remain a central focus of Chapter 8 (“Reusability and Portability”).  \n• The IEEE standard for software project management plans is again presented in Chapter 9 (“Planning and Estimating”).",
+    "question": "How many life-cycle models are presented in the book?",
+    "correct_answer": "numerous other life-cycle models are presented, compared, and contrasted",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "[N/A]",
+      "B": "[N/A]",
+      "C": "[N/A]",
+      "D": "numerous other life-cycle models are presented, compared, and contrasted"
+    },
+    "answer_key": "D",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:19.718236",
+      "chunk_token_count": 301,
+      "keywords": [
+        "Unifi ed Process",
+        "object-oriented",
+        "agile processes",
+        "CASE tools",
+        "design patterns"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00028",
+    "title": "Overview of Chapters, Case Studies, and UML in Software Engineering Text",
+    "context": "• Chapter 11 (“Requirements”), Chapter 13 (“Object-Oriented Analysis”), and Chapter 14 (“Design”) are largely devoted to the workfl ows (activities) of the Unifi ed Process. For obvious reasons, Chapter 12 (“Classical Analysis”) is largely unchanged.  \n• The material in Chapter 15 (“Implementation”) clearly distinguishes between implementation and integration.  \n• The importance of postdelivery maintenance is stressed in Chapter 16.  \n• Chapter 17 provides additional material on UML to prepare the student thoroughly for employment in the software industry. This chapter is of particular use to instructors who utilize this book for the two-semester software engineering course sequence. In the second semester, in addition to developing the team-based term project or a capstone project, the student can acquire additional knowledge of UML, beyond what is needed for this book.  \n• As before, there are two running case studies. The MSG Foundation case study and the Elevator Problem case study have been developed using the Unifi ed Process. As usual, Java and C++ implementations are available online at www.mhhe.com/schach.  \n• In addition to the two running case studies that are used to illustrate the complete life cycle, eight mini case studies highlight specifi c topics, such as the moving target prob lem, stepwise refi nement, design patterns, and postdelivery maintenance.",
+    "question": "What topics are the mini case studies?",
+    "correct_answer": "stepwise refi nement, design patterns, and postdelivery maintenance",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "[N/A]",
+      "B": "stepwise refi nement, design patterns, and postdelivery maintenance",
+      "C": "[N/A]",
+      "D": "[N/A]"
+    },
+    "answer_key": "B",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:19.718327",
+      "chunk_token_count": 284,
+      "keywords": [
+        "Unified Process",
+        "UML",
+        "case studies",
+        "implementation",
+        "maintenance"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00029",
+    "title": "Software Engineering Fundamentals and Object-Oriented Paradigm",
+    "context": "• In all the previous editions, I have stressed the importance of documentation, maintenance, reuse, portability, testing, and CASE tools. In this edition, all these concepts are stressed equally fi rmly. It is no use teaching students the latest ideas unless they appreciate the importance of the basics of software engineering.  \nAs in the seventh edition, particular attention is paid to object-oriented life-cycle models, object-oriented analysis, object-oriented design, management implications of the object-oriented paradigm, and the testing and maintenance of object-oriented software. Metrics for the object-oriented paradigm also are included. In addition, many briefer references are made to objects, a paragraph or even only a sentence in length. The reason is that the object-oriented paradigm is not just concerned with how the various phases are performed but rather permeates the way we think about software engineering. Object technology again pervades this book.  \n• The software process is still the concept that underlies the book as a whole. To control the process, we have to be able to measure what is happening to the project. Accordingly, the emphasis on metrics continues. With regard to process improvement, the material on the capability maturity model (CMM), ISO/IEC 15504 (SPICE), and ISO/IEC 12207 has been retained.",
+    "question": "What is the primary focus of the book?",
+    "correct_answer": "software process",
+    "distractors": [
+      "object-oriented paradigm",
+      "object-oriented life-cycle models",
+      "documentation"
+    ],
+    "options": {
+      "A": "object-oriented life-cycle models",
+      "B": "object-oriented paradigm",
+      "C": "software process",
+      "D": "documentation"
+    },
+    "answer_key": "C",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:19.718464",
+      "chunk_token_count": 264,
+      "keywords": [
+        "documentation",
+        "object-oriented paradigm",
+        "software metrics",
+        "capability maturity model",
+        "ISO/IEC 15504",
+        "ISO/IEC 12207"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00030",
+    "title": "Language Independence and Prerequisites in Software Engineering Textbook",
+    "context": "• The book is still language independent. The few code examples are presented in C++ and Java, and I have made every effort to smooth over language-dependent details and ensure that the code examples are equally clear to C++ and Java users. For example, instead of using cout for C++ output and System.out.println for Java output, I have utilized the pseudocode instruction print . (The one exception is the new case study, where complete implementation details are given in both C++ and Java, as before.)  \n• As in the seventh edition, this book contains over 600 references. I have selected current research papers as well as classic articles and books whose message remains fresh and relevant. There is no question that software engineering is a rapidly moving fi eld, and students therefore need to know the latest results and where in the literature to fi nd them. At the same time, today’s cutting-edge research is based on yesterday’s truths, and I see no reason to exclude an older reference if its ideas are as applicable today as they originally were.  \n• With regard to prerequisites, it is assumed that the reader is familiar with a high-level programming language such as C, C#, C++, or Java. In addition, the reader is expected to have taken a course in data structures.",
+    "question": "What language was used for the code examples in the book?",
+    "correct_answer": "C++ and Java",
+    "distractors": [
+      "C and Java",
+      "C# and C",
+      "Java and C"
+    ],
+    "options": {
+      "A": "C++ and Java",
+      "B": "C and Java",
+      "C": "Java and C",
+      "D": "C# and C"
+    },
+    "answer_key": "A",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:19.718593",
+      "chunk_token_count": 259,
+      "keywords": [
+        "language independence",
+        "C++",
+        "Java",
+        "references",
+        "prerequisites"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00031",
+    "title": "Why Classical Paradigm Remains in Software Engineering Texts",
+    "context": "## Why the Classical Paradigm Is Still Included  \nThere is now almost unanimous agreement that the object-oriented paradigm is superior to the classical paradigm. Accordingly, many instructors who adopted the seventh edition of Object-Oriented and Classical Software Engineering chose to teach only the objectoriented material in that book. However, when asked, instructors indicated that they prefer to adopt a text that includes the classical paradigm.  \nThe reason is that, even though more and more instructors teach only the object-oriented paradigm, they still refer to the classical paradigm in class; many object-oriented techniques are hard for the student to understand unless that student has some idea of the classical techniques from which those object-oriented techniques are derived. For example, understanding entityclass modeling is easier for the student who has been introduced, even superfi cially, to entityrelationship modeling. Similarly, a brief introduction to fi nite state machines makes it easier for the instructor to teach statecharts. Accordingly, I have retained classical material in the eighth edition, so that instructors have classical material available for pedagogical purposes.",
+    "question": "Why is the classical paradigm still included in software engineering textbooks?",
+    "correct_answer": "instructors still refer to the classical paradigm in class; many object-oriented techniques are hard for the student to understand unless that student has some idea of the classical techniques from which those object-oriented techniques are derived.",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "[N/A]",
+      "B": "[N/A]",
+      "C": "instructors still refer to the classical paradigm in class; many object-oriented techniques are hard for the student to understand unless that student has some idea of the classical techniques from which those object-oriented techniques are derived.",
+      "D": "[N/A]"
+    },
+    "answer_key": "C",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:19.718684",
+      "chunk_token_count": 212,
+      "keywords": [
+        "classical paradigm",
+        "object-oriented paradigm",
+        "entity-relationship modeling",
+        "finite state machines"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00033",
+    "title": "Research Paper-Based Problems in Software Engineering Textbook",
+    "context": "Because this book has been written for use by graduate students as well as upper-class undergraduates, the fourth type of problem is based on research papers in the software engineering literature. In each chapter, an important paper has been chosen; wherever possible, a paper related to object-oriented software engineering has been selected. The student is asked to read the paper and answer a question relating to its contents. Of course, the instructor is free to assign any other research paper; the For Further Reading section at the end of each chapter includes a wide variety of relevant papers.",
+    "question": "What is an example of a question that could be asked in conjunction with a research paper?",
+    "correct_answer": "Read the paper and answer a question relating to its contents.",
+    "distractors": [
+      "Read the book and answer a question relating to its contents.",
+      "Read the book and answer a question relating to the paper.",
+      "Read the book and answer a question relating to the software engineering literature."
+    ],
+    "options": {
+      "A": "Read the book and answer a question relating to the software engineering literature.",
+      "B": "Read the book and answer a question relating to its contents.",
+      "C": "Read the paper and answer a question relating to its contents.",
+      "D": "Read the book and answer a question relating to the paper."
+    },
+    "answer_key": "C",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:35.596072",
+      "chunk_token_count": 111,
+      "keywords": [
+        "research papers",
+        "object-oriented software engineering",
+        "graduate students",
+        "undergraduates",
+        "For Further Reading"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00034",
+    "title": "Case Study Modification Problems and Online Resources",
+    "context": "The fi fth type of problem relates to the case study. This type of problem was fi rst introduced in the third edition in response to a number of instructors who felt that their students learn more by modifying an existing product than by developing a new product from scratch. Many senior software engineers in the industry agree with that viewpoint. Accordingly, each chapter in which the case study is presented has problems that require the student to modify the case study in some way. For example, in one chapter the student is asked to redesign the case study using a different design technique from the one used for the case study. In another chapter, the student is asked what the effect would have been of performing the steps of the object-oriented analysis in a different order. To make it easy to modify the source code of the case study, it is available on the Web at www.mhhe.com/schach.  \nThe website also has material for instructors, including a complete set of PowerPoint lecture notes and detailed solutions to all the exercises as well as to the term project.",
+    "question": "What was the fi fth type of problem?",
+    "correct_answer": "case study",
+    "distractors": [
+      "redesigning",
+      "modifying",
+      "the case study"
+    ],
+    "options": {
+      "A": "redesigning",
+      "B": "the case study",
+      "C": "modifying",
+      "D": "case study"
+    },
+    "answer_key": "D",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:35.596264",
+      "chunk_token_count": 210,
+      "keywords": [
+        "case study",
+        "modification",
+        "object-oriented analysis",
+        "PowerPoint lecture notes",
+        "website resources"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00035",
+    "title": "UML Construct Introduction Locations",
+    "context": "## Material on UML  \nThis book makes substantial use of UML (Unifi ed Modeling Language). If the students do not have previous knowledge of UML, this material may be taught in two ways. I prefer to teach UML on a just-in-time basis; that is, each UML concept is introduced just before it is needed. The following table describes where the UML constructs used in this book are introduced  \n<table><tr><td>Construct</td><td>Section in Which the Corresponding UML Diagram Is Introduced</td></tr><tr><td>Class diagram, note, inheritance (generalization), aggregation, association, navigation triangle</td><td>Section 7.7</td></tr><tr><td>Use case</td><td>Section 11.4.3</td></tr><tr><td>Use-case diagram, use-case description</td><td>Section 11.7</td></tr><tr><td>Stereotype</td><td>Section 13.1</td></tr><tr><td>Statechart</td><td>Section 13.6</td></tr><tr><td>Interaction diagram (sequence diagram, communication diagram)</td><td>Section 13.15</td></tr></table>  \nAlternatively, Chapter 17 contains an introduction to UML, including material above and beyond what is needed for this book. Chapter 17 may be taught at any time; it does not depend on material in the fi rst 16 chapters. The topics covered in Chapter 17 are as follows:",
+    "question": "What is one way of teaching UML?",
+    "correct_answer": "just-in-time basis",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "[N/A]",
+      "B": "just-in-time basis",
+      "C": "[N/A]",
+      "D": "[N/A]"
+    },
+    "answer_key": "B",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:35.596387",
+      "chunk_token_count": 329,
+      "keywords": [
+        "UML",
+        "class diagram",
+        "use case",
+        "statechart",
+        "interaction diagram"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00036",
+    "title": "UML Diagram Constructs and Sections",
+    "context": "<table><tr><td>Construct</td><td>Section in Which the Corresponding UML Diagram Is Introduced</td></tr><tr><td>Class diagram, aggregation, multiplicity, composition, generalization, association</td><td>Section 17.2</td></tr><tr><td>Note</td><td>Section 17.3</td></tr><tr><td>Use-case diagram</td><td>Section 17.4</td></tr><tr><td>Stereotype</td><td>Section 17.5</td></tr><tr><td>Interaction diagram</td><td>Section 17.6</td></tr><tr><td>Statechart</td><td>Section 17.7</td></tr><tr><td>Activity diagram</td><td>Section 17.8</td></tr><tr><td>Package</td><td>Section 17.9</td></tr><tr><td>Component diagram</td><td>Section 17.10</td></tr><tr><td>Deployment diagram</td><td>Section 17.11</td></tr></table>\n\n## Online Resources  \nA website to accompany the text is available at www.mhhe.com/schach. The website features Java and C++ implementations as well as source code for the MSG case study for students. For instructors, lecture PowerPoints, detailed solutions to all exercises and the term project, and an image library are available. For details, contact your sales representative.",
+    "question": "What is the name of the website that accompanies the textbook?",
+    "correct_answer": "www.mhhe.com/schach",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "[N/A]",
+      "B": "www.mhhe.com/schach",
+      "C": "[N/A]",
+      "D": "[N/A]"
+    },
+    "answer_key": "B",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:35.596508",
+      "chunk_token_count": 325,
+      "keywords": [
+        "UML diagram",
+        "class diagram",
+        "aggregation",
+        "multiplicity",
+        "composition"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00037",
+    "title": "Electronic Textbook Options and Benefits",
+    "context": "## Electronic Textbook Options  \nE-books are an innovative way for students to save money and create a greener environment at the same time. An e-book can save students about half the cost of a traditional textbook and offers unique features like a powerful search engine, highlighting, and the ability to share notes with classmates using e-books.  \nMcGraw-Hill offers this text as an e-book. To talk about the e-book options, contact your McGraw-Hill sales representative or visit the site www.coursesmart.com to learn more.",
+    "question": "What is the e-book search engine useful for?",
+    "correct_answer": "highlighting",
+    "distractors": [
+      "reading",
+      "printing",
+      "writing"
+    ],
+    "options": {
+      "A": "highlighting",
+      "B": "reading",
+      "C": "writing",
+      "D": "printing"
+    },
+    "answer_key": "A",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:35.596620",
+      "chunk_token_count": 109,
+      "keywords": [
+        "e-book",
+        "cost savings",
+        "search engine",
+        "highlighting",
+        "note sharing"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00038",
+    "title": "Acknowledgments",
+    "context": "## Acknowledgments  \nI greatly appreciate the constructive criticisms and many helpful suggestions of the reviewers of the seven previous editions. Special thanks go to the reviewers of this edition, including  \nRamzi Bualuan  \nMike McCracken  \nUniversity of Notre Dame  \nGeorgia Institute of Technology  \nRuth Dameron  \nNenad Medvidovic  \nUniversity of Colorado, Boulder  \nUniversity of Southern California  \nWerner Krandick  \nSaeed Monemi  \nDrexel University  \nCalifornia Polytechnic University, Pomona  \nCalifornia State University, Northridge  \nJie Wei  \nCity University of New York—City College  \nWith regard to my publishers, McGraw-Hill, I am most grateful to copyeditor Kevin Camp bell and designer Brenda Rolwes. A special word of thanks goes to Melissa Welch of Studio Montage, who transformed a photograph of Sydney Harbour Bridge at night into the stunning cover.  \nSpecial thanks also go to Jean Naudé (Vaal University of Technology, Secunda Campus) for co-authoring the Instructor’s Solution Manual. In particular, Jean provided a complete solution for the term project, including implementing it in both Java and C++. In the course of working on the ISM, Jean made numerous constructive suggestions for improving this book. I am most grateful to Jean.",
+    "question": "What did the reviewers of the seventh edition of the book suggest to the author?",
+    "correct_answer": "constructive criticisms and many helpful suggestions",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "constructive criticisms and many helpful suggestions",
+      "B": "[N/A]",
+      "C": "[N/A]",
+      "D": "[N/A]"
+    },
+    "answer_key": "A",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:35.596724",
+      "chunk_token_count": 263,
+      "keywords": [
+        "reviewers",
+        "publishers",
+        "Instructor’s Solution Manual",
+        "Java"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00039",
+    "title": "Acknowledgments and Dedication",
+    "context": "Finally, as always, I thank my wife, Sharon, for her continual support and encouragement. As with all my previous books, I did my utmost to ensure that family commitments took precedence over writing. However, when deadlines loomed, this was not always possible. At such times, Sharon always understood, and for this I am most grateful.  \nIt is my privilege to dedicate my fi fteenth book to my grandchildren, Jackson and Mikaela, with love.  \nStephen R. Schach  \nThis page intentionally left blank",
+    "question": "Who did Schach dedicate the book to?",
+    "correct_answer": "his grandchildren, Jackson and Mikaela",
+    "distractors": [
+      "his colleagues",
+      "his readers",
+      "his wife, Sharon"
+    ],
+    "options": {
+      "A": "his colleagues",
+      "B": "his readers",
+      "C": "his wife, Sharon",
+      "D": "his grandchildren, Jackson and Mikaela"
+    },
+    "answer_key": "D",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:35.597432",
+      "chunk_token_count": 106,
+      "keywords": [
+        "acknowledgments",
+        "dedication",
+        "family support",
+        "grandchildren"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00040",
+    "title": "Scope of Software Engineering",
+    "context": "# The Scope of Software Engineering  \nLearning Objectives  \nAfter studying this chapter, you should be able to  \n• Defi ne what is meant by software engineering.  \n• Describe the classical software engineering life-cycle model.  \n• Explain why the object-oriented paradigm is now so widely accepted.  \n• Discuss the implications of the various aspects of software engineering.  \n• Distinguish between the classical and modern views of maintenance.  \n• Discuss the importance of continual planning, testing, and documentation.  \n• Appreciate the importance of adhering to a code of ethics.  \nA well-known story tells of an executive who received a computer-generated bill for $0.00. After having a good laugh with friends about “idiot computers,” the executive tossed the bill away. A month later, a similar bill arrived, this time marked 30 days. Then came the third bill. The fourth bill arrived a month later, accompanied by a message hinting at possible legal action if the bill for $0.00 was not paid at once.",
+    "question": "What is the classical software engineering life-cycle model?",
+    "correct_answer": "classical software engineering life-cycle model",
+    "distractors": [
+      "software engineering life-cycle model",
+      "software engineering life-cycle",
+      "software life-cycle"
+    ],
+    "options": {
+      "A": "classical software engineering life-cycle model",
+      "B": "software engineering life-cycle model",
+      "C": "software life-cycle",
+      "D": "software engineering life-cycle"
+    },
+    "answer_key": "A",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:35.597563",
+      "chunk_token_count": 208,
+      "keywords": [
+        "software engineering",
+        "life-cycle model",
+        "object-oriented paradigm",
+        "maintenance",
+        "ethics"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00041",
+    "title": "Zero-Dollar Check Causes Computer System Issue",
+    "context": "The fi fth bill, marked 120 days, did not hint at anything—the message was rude and forthright, threatening all manner of legal actions if the bill was not immediately paid. Fearful of his organization’s credit rating in the hands of this maniacal machine, the executive called an acquaintance who was a software engineer and related the whole sorry story. Trying not to laugh, the software engineer told the executive to mail a check for $0.00. This had the desired effect, and a receipt for $0.00 was received a few days later. The executive meticulously fi led it away in case at some future date the computer might allege that $0.00 was still owed.  \nThis well-known story has a less well-known sequel. A few days later, the executive was summoned by his bank manager. The banker held up a check and asked, “Is this your check?”  \nThe executive agreed that it was.  \n“Would you mind telling me why you wrote a check for $0.00?” asked the banker.  \nSo the whole story was retold. When the executive had fi nished, the banker turned to him and she quietly asked, “Have you any idea what your check for $0.00 did to our computer system?”",
+    "question": "What did the banker tell the executive about the check?",
+    "correct_answer": "$0.00 was still owed",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "[N/A]",
+      "B": "[N/A]",
+      "C": "[N/A]",
+      "D": "$0.00 was still owed"
+    },
+    "answer_key": "D",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:35.597708",
+      "chunk_token_count": 258,
+      "keywords": [
+        "zero-dollar check",
+        "computer system",
+        "bank manager",
+        "software engineer",
+        "legal threat"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00042",
+    "title": "Testing Faults and Fear of Undetected Errors",
+    "context": "A computer professional can laugh at this story, albeit somewhat nervously. After all, every one of us has designed or implemented a product that, in its original form, would have resulted in the equivalent of sending dunning letters for $0.00. Up to now, we have always caught this sort of fault during testing. But our laughter has a hollow ring to it, because at the back of our minds is the fear that someday we will not detect the fault before the product is delivered to the customer.",
+    "question": "What is the story of sending dunning letters for $0.00 a metaphor for?",
+    "correct_answer": "the fear that someday we will not detect the fault before the product is delivered to the customer",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "[N/A]",
+      "B": "[N/A]",
+      "C": "the fear that someday we will not detect the fault before the product is delivered to the customer",
+      "D": "[N/A]"
+    },
+    "answer_key": "C",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:35.597837",
+      "chunk_token_count": 103,
+      "keywords": [
+        "testing",
+        "fault detection",
+        "software errors",
+        "customer delivery",
+        "dunning letters"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00043",
+    "title": "1979 WWMCCS False Missile Alert Due to Software Fault",
+    "context": "A decidedly less humorous software fault was detected on November 9, 1979. The Strategic Air Command had an alert scramble when the worldwide military command and control system (WWMCCS) computer network reported that the Soviet Union had launched missiles aimed toward the United States [Neumann, 1980]. What actually happened was that a simulated attack was interpreted as the real thing, just as in the movie WarGames some 5 years later. Although the U.S. Department of Defense understandably has not given details about the precise mechanism by which test data were taken for actual data, it seems reasonable to ascribe the problem to a software fault. Either the system as a whole was not designed to differentiate between simulations and reality or the user interface did not include the necessary checks for ensuring that end users of the system would be able to distinguish fact from fiction. In other words, a software fault, if indeed the problem was caused by software, could have brought civilization as we know it to an unpleasant and abrupt end. (See Just in Case You Wanted to Know Box 1.1 for information on disasters caused by other software faults.)",
+    "question": "What was the name of the computer network that detected the simulated attack as the real thing?",
+    "correct_answer": "WWMCCS",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "[N/A]",
+      "B": "[N/A]",
+      "C": "[N/A]",
+      "D": "WWMCCS"
+    },
+    "answer_key": "D",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:35.597978",
+      "chunk_token_count": 228,
+      "keywords": [
+        "WWMCCS",
+        "software fault",
+        "false alarm",
+        "simulation vs reality",
+        "Strategic Air Command"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00044",
+    "title": "Software Engineering: Aim and Scope",
+    "context": "Whether we are dealing with billing or air defense, much of our software is delivered late, over budget, and with residual faults, and does not meet the client’s needs. Software engineering is an attempt to solve these problems. In other words, software engineering is a discipline whose aim is the production of fault-free software, delivered on time and within budget, that satisfi es the client’s needs. Furthermore, the software must be easy to modify when the user’s needs change.  \nThe scope of software engineering is extremely broad. Some aspects of software engineering can be categorized as mathematics or computer science; other aspects fall into the areas of economics, management, or psychology. To display the wide-reaching realm of software engineering, we now examine fi ve different aspects.",
+    "question": "What are some of the categories of software engineering?",
+    "correct_answer": "mathematics or computer science; other aspects fall into the areas of economics, management, or psychology",
+    "distractors": [
+      "computer science; mathematics; other aspects fall into the areas of economics or psychology",
+      "economics; management; psychology; computer science; mathematics",
+      "computer science; mathematics; economics; psychology; management"
+    ],
+    "options": {
+      "A": "computer science; mathematics; other aspects fall into the areas of economics or psychology",
+      "B": "mathematics or computer science; other aspects fall into the areas of economics, management, or psychology",
+      "C": "computer science; mathematics; economics; psychology; management",
+      "D": "economics; management; psychology; computer science; mathematics"
+    },
+    "answer_key": "B",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:35.598273",
+      "chunk_token_count": 152,
+      "keywords": [
+        "software engineering",
+        "fault-free software",
+        "client needs",
+        "scope",
+        "budget"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00045",
+    "title": "Historical Software Failures and Lessons",
+    "context": "## 1.1 Historical Aspects  \nIt is a fact that electric power generators fail, but far less frequently than payroll products. Bridges sometimes collapse but considerably less often than operating systems. In the belief that software design, implementation, and maintenance could be put on the same  \nIn the case of the WWMCCS network, disaster was averted at the last minute. However, the consequences of other software faults have been fatal. For example, between 1985 and 1987, at least two patients died as a consequence of severe overdoses of radiation delivered by the Therac-25 medical linear accelerator [Leveson and Turner, 1993]. The cause was a fault in the control software.  \nAlso, during the 1991 Gulf War, a Scud missile penetrated the Patriot antimissile shield and struck a barracks near Dhahran, Saudi Arabia. In all, 28 Americans were killed and 98 wounded. The software for the Patriot missile contained a cumulative timing fault. The Patriot was designed to operate for only a few hours at a time, after which the clock was reset. As a result, the fault never had a signifi cant effect and therefore was not detected. In the Gulf War, however, the Patriot missile battery at Dhahran ran continuously for over 100 hours. This caused the accumulated time discrepancy to become large enough to render the system inaccurate.",
+    "question": "What did the accumulated time discrepancy cause the system to become inaccurate from?",
+    "correct_answer": "large enough to render the system inaccurate",
+    "distractors": [
+      "too large to render the system inaccurate",
+      "large enough to render the system inaccurate",
+      "too large to render the system inaccurate"
+    ],
+    "options": {
+      "A": "large enough to render the system inaccurate",
+      "B": "too large to render the system inaccurate",
+      "C": "too large to render the system inaccurate",
+      "D": "large enough to render the system inaccurate"
+    },
+    "answer_key": "A",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:35.598439",
+      "chunk_token_count": 284,
+      "keywords": [
+        "software failure",
+        "Therac-25",
+        "Patriot missile",
+        "timing fault",
+        "safety-critical systems"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00046",
+    "title": "Software Faults in Military and Financial Systems",
+    "context": "During the Gulf War, the United States shipped Patriot missiles to Israel for protection against the Scuds. Israeli forces detected the timing problem after only 8 hours and immediately reported it to the manufacturer in the United States. The manufacturer corrected the fault as quickly as it could, but tragically, the new software arrived the day after the direct hit by the Scud [Mellor, 1994].  \nFortunately, it is extremely rare for death or serious injury to be caused by a software fault. However, one fault can cause major problems for thousands and thousands of people. For example, in February 2003, a software fault resulted in the U.S. Treasury Department mailing 50,000 Social Security checks that had been printed without the name of the benefi ciary, so the checks could not be deposited or cashed [St. Petersburg Times Online, 2003]. In April 2003, borrowers were informed by SLM Corp. (commonly known as Sallie Mae) that the interest on their student loans had been miscalculated as a consequence of a software fault from 1992 but detected only at the end of 2002. Nearly 1 million borrowers were told that they would have to pay more, either in the form of higher monthly payments or extra interest payments on loans extending beyond their original 10-year terms [GJSentinel.com, 2003]. Both faults were quickly corrected, but together they resulted in nontrivial fi nancial consequences for about a million people.",
+    "question": "How many borrowers were affected by the SLM Corp. software fault?",
+    "correct_answer": "nearly 1 million",
+    "distractors": [
+      "50,000",
+      "1 million",
+      "8 hours"
+    ],
+    "options": {
+      "A": "nearly 1 million",
+      "B": "8 hours",
+      "C": "50,000",
+      "D": "1 million"
+    },
+    "answer_key": "A",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:35.598533",
+      "chunk_token_count": 309,
+      "keywords": [
+        "software fault",
+        "Patriot missile",
+        "U.S. Treasury",
+        "Sallie Mae",
+        "Scud"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00047",
+    "title": "Belgian Budget Overrun Due to Software Fault",
+    "context": "The Belgian government overestimated its 2007 budget by <sup>€</sup>883,000,000 (more than $1,100,000,000 at time of writing). This mistake was caused by a software fault compounded by the manual overriding of an error-detection mechanism [La Libre Online, 2007a; 2007b]. The Belgian tax authorities used scanners and optical character recognition software to process tax returns. If the software encountered an unreadable return, it recorded the taxpayer’s income as <sup>€</sup>99,999,999.99 (over $125,000,000). Presumably, the “magic number” <sup>€</sup>99,999,999.99 was chosen to be quickly detected by employees of the data processing department, so that the return in question would then be processed manually. This worked fi ne when the tax returns were analyzed for tax assessment purposes, but not when the tax returns were reanalyzed for budgetary purposes. Ironically, the software product did have fi lters to detect this sort of problem, but the fi lters were manually bypassed to speed up processing.  \nThere were at least two faults in the software. First, the software engineers assumed that there would always be adequate manual scrutiny before further processing of the data. Second, the software allowed the fi lters to be manually overridden.",
+    "question": "What was the budget overrun in 2007?",
+    "correct_answer": "€883,000,000",
+    "distractors": [
+      "€99,999,999.99",
+      "€1,100,000,000",
+      "€125,000,000"
+    ],
+    "options": {
+      "A": "€125,000,000",
+      "B": "€99,999,999.99",
+      "C": "€1,100,000,000",
+      "D": "€883,000,000"
+    },
+    "answer_key": "D",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:35.598608",
+      "chunk_token_count": 283,
+      "keywords": [
+        "software fault",
+        "manual override",
+        "budget overestimation",
+        "tax processing",
+        "error detection"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00048",
+    "title": "Tacoma Narrows Bridge Collapse Example",
+    "context": "As stated in Section 1.1, the aim of the Garmisch conference was to make software development as successful as traditional engineering. But by no means are all traditional engineering projects successful. For example, consider bridge building.  \nIn July 1940, construction of a suspension bridge over the Tacoma Narrows, in Washington State, was completed. Soon after, it was discovered that the bridge swayed and buckled dangerously in windy conditions. Approaching cars would alternately disappear into valleys and then reappear as that part of the bridge rose again. From this behavior, the bridge was given the nickname “Galloping Gertie.” Finally, on November 7, 1940, the bridge collapsed in a 42 mile per hour wind; fortunately, the bridge had been closed to all traffi c some hours earlier. The last 15 minutes of its life were captured on fi lm, now stored in the U.S. National Film Registry.",
+    "question": "What was the nickname of the Tacoma Narrows bridge?",
+    "correct_answer": "Galloping Gertie",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "Galloping Gertie",
+      "B": "[N/A]",
+      "C": "[N/A]",
+      "D": "[N/A]"
+    },
+    "answer_key": "A",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:49.136780",
+      "chunk_token_count": 194,
+      "keywords": [
+        "Tacoma Narrows",
+        "bridge collapse",
+        "Galloping Gertie",
+        "software engineering",
+        "Garmisch conference"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00049",
+    "title": "Bridge Height Mismatch Due to Sea Level Difference",
+    "context": "A somewhat more humorous bridge construction failure was observed in January 2004. A new bridge was being built over the Upper Rhine River near the German town of Laufenberg, to connect Germany and Switzerland. The German half of the bridge was designed and constructed by a team of German engineers; the Swiss half by a Swiss team. When the two parts were connected, it immediately became apparent that the German half was some 21 inches (54 centimeters) higher than the Swiss half. Major reconstruction was needed to correct the problem, which was caused by wrongly correcting for the fact that “sea level” is taken by Swiss engineers to be the average level of the Mediterranean Sea, whereas German engineers use the North Sea. To compensate for the difference in sea levels, the Swiss side should have been raised 10.5 inches. Instead, it was lowered 10.5 inches, resulting in the gap of 21 inches [Spiegel Online, 2004].",
+    "question": "How much higher was the German half of the bridge than the Swiss half?",
+    "correct_answer": "21 inches",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "[N/A]",
+      "B": "[N/A]",
+      "C": "[N/A]",
+      "D": "21 inches"
+    },
+    "answer_key": "D",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:49.136990",
+      "chunk_token_count": 194,
+      "keywords": [
+        "bridge construction",
+        "sea level",
+        "German engineers",
+        "Swiss engineers",
+        "height mismatch"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00051",
+    "title": "Software Crisis Statistics and Impacts",
+    "context": "Despite many software success stories, an unacceptably large proportion of software products still are being delivered late, over budget, and with residual faults. For example, the Standish Group is a research fi rm that analyzes software development projects. Their study of development projects completed in 2006 is summarized in Figure 1.1 [Rubenstein, 2007]. Only 35 percent of the projects were successfully completed, whereas 19 percent were canceled before completion or were never implemented. The remaining 46 percent of the projects were completed and installed on the client’s computer. However, those projects were over budget, late, or had fewer features and functionality than initially specifi ed. In other words, during 2006, just over one in three software development projects was successful; almost half the projects displayed one or more symptoms of the software crisis.  \nFIGURE 1.1 The outcomes of over 9,000 development projects completed in 2006 [Rubenstein, 2007].  \n![image](https://cdn-mineru.openxlab.org.cn/result/2026-06-28/1ce9ee98-da07-4d0b-847b-a174047bcb19/6e198cb4abf9a51dfbdac86eebb3b7c205f28aa53827e82974e1130e86c3123c.jpg)  \nThe fi nancial implications of the software crisis are horrendous. In a survey conducted by the Cutter Consortium [2002], the following was reported:  \n• An astounding 78 percent of information technology organizations have been involved in disputes that ended in litigation.",
+    "question": "What firm analyzes software development projects?",
+    "correct_answer": "The Standish Group",
+    "distractors": [
+      "The Cutter Consortium",
+      "The Cutter Group",
+      "The Standish Group"
+    ],
+    "options": {
+      "A": "The Standish Group",
+      "B": "The Cutter Consortium",
+      "C": "The Standish Group",
+      "D": "The Cutter Group"
+    },
+    "answer_key": "A",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:49.137172",
+      "chunk_token_count": 339,
+      "keywords": [
+        "software crisis",
+        "Standish Group",
+        "project outcomes",
+        "financial implications",
+        "litigation"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00052",
+    "title": "Software Crisis and Required Engineer Skills",
+    "context": "• In 67 percent of those cases, the functionality or performance of the software products as delivered did not measure up to the claims of the software developers.  \n• In 56 percent of those cases, the promised delivery date slipped several times  \n• In 45 percent of those cases, the faults were so severe that the software product was unusable.  \nIt is clear that far too little software is delivered on time, within budget, fault free, and meeting its client’s needs. To achieve these goals, a software engineer has to acquire a broad range of skills, both technical and managerial. These skills have to be applied not just to programming but to every step of software production, from requirements to postdelivery maintenance.  \nThat the software crisis still is with us, some 40 years later, tells us two things. First, the software process , that is, the way we produce software, has its own unique properties and problems, even though it resembles traditional engineering in many respects. Second, the software crisis perhaps should be renamed the software depression , in view of its long duration and poor prognosis.  \nWe now consider economic aspects of software engineering.",
+    "question": "What percentage of software engineers have experienced the software crisis?",
+    "correct_answer": "67 percent",
+    "distractors": [
+      "56 percent",
+      "45 percent",
+      "40 percent"
+    ],
+    "options": {
+      "A": "45 percent",
+      "B": "56 percent",
+      "C": "40 percent",
+      "D": "67 percent"
+    },
+    "answer_key": "D",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:49.137364",
+      "chunk_token_count": 232,
+      "keywords": [
+        "software crisis",
+        "software process",
+        "software engineer skills",
+        "delivery faults",
+        "economic aspects"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00055",
+    "title": "Economic Trade‑offs Between Coding Techniques and Maintenance",
+    "context": "• A second reason why the economics of software engineering may dictate that $\\mathrm { C T _ { o l d } }$ be retained is the maintenance consequence. Coding technique $\\mathrm { C T } _ { \\mathrm { n e w } }$ indeed may be 10 percent faster than $\\mathrm { C T _ { o l d } } ,$ and the resulting code may be of comparable quality from the viewpoint of satisfying the client’s current needs. But the use of technique $\\mathrm { C T } _ { \\mathrm { n e w } }$ may result in code that is diffi cult to maintain, making the cost of $\\mathrm { C T } _ { \\mathrm { n e w } }$ higher over the life of the product. Of course, if the software developer is not responsible for any postdelivery maintenance, then, from the viewpoint of just that developer, $\\mathrm { C T } _ { \\mathrm { n e w } }$ is a more attractive proposition. After all, the use of $\\mathrm { C T } _ { \\mathrm { n e w } }$ would cost 10 percent less. The client should insist that technique $\\mathrm { C T _ { o l d } }$ be used and pay the higher initial costs with the expectation that the total lifetime cost of the software will be lower. Unfortunately, often the sole aim of both the client and the software provider is to produce code as quickly as possible. The long-term effects of using a particular technique generally are ignored in the interests of short-term gain. Applying economic principles to software engineering requires the client to choose techniques that reduce long-term costs.\n\nThis example deals with coding, which constitutes less than 10 percent of the software development effort. The economic principles, however, apply to all other aspects of software production as well.  \nWe now consider the importance of maintenance.",
+    "question": "What is the potential drawback of using $\\mathrm { C T } _ { \\mathrm { n e w } }$?",
+    "correct_answer": "code that is diffi cult to maintain",
+    "distractors": [
+      "potential cost of $\\mathrm { C T } _ { \\mathrm { n e w } }$",
+      "lower initial costs",
+      "much faster than $\\mathrm { C T } _ { \\mathrm { o l d } }$"
+    ],
+    "options": {
+      "A": "code that is diffi cult to maintain",
+      "B": "potential cost of $\\mathrm { C T } _ { \\mathrm { n e w } }$",
+      "C": "much faster than $\\mathrm { C T } _ { \\mathrm { o l d } }$",
+      "D": "lower initial costs"
+    },
+    "answer_key": "A",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:49.137534",
+      "chunk_token_count": 383,
+      "keywords": [
+        "software engineering economics",
+        "maintenance cost",
+        "coding technique",
+        "long‑term cost",
+        "short‑term gain"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00056",
+    "title": "Maintenance Aspects in Software Life Cycle",
+    "context": "## 1.3 Maintenance Aspects  \nIn this section, we describe maintenance within the context of the software life cycle. A life-cycle model is a description of the steps that should be performed when building a software product. Many different life-cycle models have been proposed; several of them are described in Chapter 2 . Because it is almost always easier to perform a sequence of smaller tasks than one large task, the overall life-cycle model is broken into a series of smaller steps, called phases . The number of phases varies from model to model—from as few as four to as many as eight. In contrast to a life-cycle model, which is a theoretical description of what should be done, the actual series of steps performed on a specifi c software product, from concept exploration through fi nal retirement, is termed the life cycle of that product. In practice, the phases of the life cycle of a software product may not be carried out exactly as specifi ed in the life-cycle model, especially when time and cost overruns  \nFIGURE 1.2 The six phases of the classical life-cycle model.  \n1. Requirements phase  \n2. Analysis (specification) phase  \n3. Design phase  \n4. Implementation phase  \n5. Postdelivery maintenance  \n6. Retirement  \nare encountered. It has been claimed that more software projects have gone wrong for lack of time than for all other reasons combined [Brooks, 1975].",
+    "question": "What is the overall life-cycle model broken into?",
+    "correct_answer": "a series of smaller steps, called phases",
+    "distractors": [
+      "a series of larger steps, called phases",
+      "a series of smaller steps, called tasks",
+      "a series of larger steps, called tasks"
+    ],
+    "options": {
+      "A": "a series of larger steps, called tasks",
+      "B": "a series of larger steps, called phases",
+      "C": "a series of smaller steps, called phases",
+      "D": "a series of smaller steps, called tasks"
+    },
+    "answer_key": "C",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:49.138065",
+      "chunk_token_count": 289,
+      "keywords": [
+        "maintenance",
+        "life-cycle model",
+        "phases",
+        "software product",
+        "postdelivery maintenance",
+        "retirement"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00058",
+    "title": "Software Development Phases: Design, Implementation, Maintenance",
+    "context": "3. Design phase . The specifi cations undergo two consecutive design procedures during the design phase . First comes architectural design , in which the product as a whole is broken down into components, called modules . Then, each module is designed; this procedure is termed detailed design . The two resulting design documents describe “how the product does it.”  \n4. Implementation phase . The various components undergo coding and testing ( unit testing ) separately. Then, the components of the product are combined and tested as a whole; this is termed integration . When the developers are satisfi ed that the product functions correctly, it is tested by the client ( acceptance testing ). The implementation phase ends when the product is accepted by the client and installed on the client’s computer. (We see in Chapter 15 that coding and integration should be performed in parallel.)  \n5. Postdelivery maintenance. The product is used to perform the tasks for which it was developed. During this time, it is maintained. Postdelivery maintenance includes all changes to the product once the product has been delivered and installed on the client’s computer and passes its acceptance test. Postdelivery maintenance",
+    "question": "What is the result of the design phase?",
+    "correct_answer": "two design documents describe “how the product does it.”",
+    "distractors": [
+      "the product is broken down into components.",
+      "the product is tested by the client.",
+      "the product is tested by the developers."
+    ],
+    "options": {
+      "A": "the product is tested by the developers.",
+      "B": "the product is broken down into components.",
+      "C": "the product is tested by the client.",
+      "D": "two design documents describe “how the product does it.”"
+    },
+    "answer_key": "D",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:49.138253",
+      "chunk_token_count": 227,
+      "keywords": [
+        "design phase",
+        "implementation phase",
+        "postdelivery maintenance"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00059",
+    "title": "1.3 Maintenance Aspects",
+    "context": "One of the most widely quoted results in software engineering is that 17.4 percent of the postdelivery maintenance effort is corrective in nature; 18.2 percent is adaptive; 60.3 percent is perfective; and 4.1 percent can be categorized as “other.” This result is taken from a paper published in 1978 [Lientz, Swanson, and Tompkins, 1978].  \nHowever, the result in that paper was not derived from measurements on maintenance data. Instead, the authors conducted a survey of maintenance managers who were asked to estimate how much time was devoted to each category within their organization as a whole and to state how confi dent they felt about their estimate. More specifi cally, the participating software maintenance managers were asked whether their response was based on reasonably accurate data, minimal data, or no data; 49.3 percent stated that their answer was based on reasonably accurate data, 37.7 percent on minimal data, and 8.7 percent on no data.",
+    "question": "What percentage of maintenance is perfective?",
+    "correct_answer": "60.3 percent",
+    "distractors": [
+      "17.4 percent",
+      "18.2 percent",
+      "4.1 percent"
+    ],
+    "options": {
+      "A": "60.3 percent",
+      "B": "17.4 percent",
+      "C": "18.2 percent",
+      "D": "4.1 percent"
+    },
+    "answer_key": "A",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:49.138369",
+      "chunk_token_count": 211,
+      "keywords": []
+    }
+  },
+  {
+    "chunk_id": "chunk_00060",
+    "title": "Challenges in Early Software Maintenance Survey Data",
+    "context": "In fact, one should seriously question whether any respondents had “reasonably accurate data” regarding the percentage of time devoted to the categories of maintenance included in the survey; most of them probably did not have even “minimal data.” In that survey, participants were asked to state what percentage of maintenance consisted of items like “emergency fi xes” or “routine debugging”; from this raw information, the percentage of adaptive, corrective, and perfective maintenance was deduced. Software engineering was just starting to emerge as a discipline in 1978, and it was the exception for software maintenance managers to collect the detailed information needed to respond to such a survey. Indeed, in modern terminology, in 1978 virtually every organization was still at CMM level 1 (see Section 3.13).  \nHence, we have strong grounds for questioning whether the actual distribution of postdelivery maintenance activities back in 1978 was anything like the estimates of the managers who took part in the survey. The distribution of maintenance activities is certainly nothing like that today. For example, results on actual maintenance data for the Linux kernel [Schach et al., 2002] and the gcc compiler [Schach et al., 2003] show that at least 50 percent of postdelivery maintenance is corrective, as opposed to the 17.4 percent fi gure claimed in the survey.",
+    "question": "What year did software engineering start to emerge as a discipline?",
+    "correct_answer": "1978",
+    "distractors": [
+      "2002",
+      "2003",
+      "1979"
+    ],
+    "options": {
+      "A": "1979",
+      "B": "2002",
+      "C": "1978",
+      "D": "2003"
+    },
+    "answer_key": "C",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:49.138447",
+      "chunk_token_count": 277,
+      "keywords": [
+        "software maintenance",
+        "survey data",
+        "CMM level 1",
+        "corrective maintenance",
+        "maintenance categories"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00061",
+    "title": "Types of Software Maintenance and Retirement",
+    "context": "includes corrective maintenance (or software repair ), which consists of the removal of residual faults while leaving the specifications unchanged, as well as enhancement (or software update), which consists of changes to the specifications and the implementation of those changes. There are, in turn, two types of enhancement. The first is perfective maintenance , changes that the client thinks will improve the effectiveness of the product, such as additional functionality or decreased response time. The second is adaptive maintenance , changes made in response to changes in the environment in which the product operates, such as a new hardware/operating system or new government regulations. (For an insight into the three types of postdelivery maintenance, see Just in Case You Wanted to Know Box 1.3.)  \n6. Retirement . Retirement occurs when the product is removed from service. This occurs when the functionality provided by the product no longer is of any use to the client organization.  \nNow we examine the defi nition of maintenance in greater detail.",
+    "question": "What is perfective maintenance?",
+    "correct_answer": "changes that the client thinks will improve the effectiveness of the product",
+    "distractors": [
+      "changes to the specifications and the implementation of those changes",
+      "removal of residual faults while leaving the specifications unchanged",
+      "the removal of residual faults while leaving the specifications unchanged"
+    ],
+    "options": {
+      "A": "changes to the specifications and the implementation of those changes",
+      "B": "changes that the client thinks will improve the effectiveness of the product",
+      "C": "the removal of residual faults while leaving the specifications unchanged",
+      "D": "removal of residual faults while leaving the specifications unchanged"
+    },
+    "answer_key": "B",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:49.138525",
+      "chunk_token_count": 197,
+      "keywords": [
+        "corrective maintenance",
+        "enhancement",
+        "perfective maintenance",
+        "adaptive maintenance",
+        "retirement"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00062",
+    "title": "Classical and Modern Views of Software Maintenance",
+    "context": "## 1.3.1 Classical and Modern Views of Maintenance  \nIn the 1970s, software production was viewed as consisting of two distinct activities performed sequentially: development followed by maintenance . Starting from scratch, the software product was developed, and then installed on the client’s computer. Any change to the software after installation on the client’s computer and acceptance by the client, whether to fi x a residual fault or extend the functionality, constituted classical maintenance [IEEE 610.12, 1990]. Hence, the way that software was developed classically can be described as the development-then-maintenance model .",
+    "question": "What is the classical model of software production?",
+    "correct_answer": "the development-then-maintenance model",
+    "distractors": [
+      "the development-after-maintenance model",
+      "the development-and-maintenance model",
+      "the development-before-maintenance model"
+    ],
+    "options": {
+      "A": "the development-after-maintenance model",
+      "B": "the development-before-maintenance model",
+      "C": "the development-then-maintenance model",
+      "D": "the development-and-maintenance model"
+    },
+    "answer_key": "C",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:49.138819",
+      "chunk_token_count": 124,
+      "keywords": [
+        "software maintenance",
+        "development-then-maintenance model",
+        "classical maintenance",
+        "IEEE 610.12"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00063",
+    "title": "Temporal Definition of Development vs Maintenance",
+    "context": "This is a temporal defi nition ; that is, an activity is classifi ed as development or maintenance depending on when it is performed. Suppose that a fault in the software is detected and corrected a day after the software has been installed. By defi nition, this constitutes classical maintenance. But if the identical fault is detected and corrected the day before the software is installed, in terms of the defi nition, this constitutes classical development. Now suppose that a software product has just been installed but the client wants to increase the functionality of the software product. Classically, that would be described as perfective maintenance. However, if the client wants the same change to be made just before the software product is installed, this would be classical development. Again, there is no difference whatsoever between the nature of the two activities, but classically one is considered development, the other perfective maintenance.  \nIn addition to such inconsistencies, two other reasons explain why the developmentthen-maintenance model is unrealistic today:",
+    "question": "What is a temporal definition?",
+    "correct_answer": "an activity is classifi ed as development or maintenance depending on when it is performed",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "[N/A]",
+      "B": "an activity is classifi ed as development or maintenance depending on when it is performed",
+      "C": "[N/A]",
+      "D": "[N/A]"
+    },
+    "answer_key": "B",
+    "metadata": {
+      "timestamp": "2026-07-01T14:43:49.138964",
+      "chunk_token_count": 203,
+      "keywords": [
+        "temporal definition",
+        "development",
+        "maintenance",
+        "perfective maintenance",
+        "development-then-maintenance model"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00064",
+    "title": "Impact of Changing Requirements on Software Development",
+    "context": "1. Nowadays, it is certainly not unusual for construction of a product to take a year or more. During this time, the client’s requirements may well change. For example, the client might insist that the product now be implemented on a faster processor, which has just become available. Alternatively, the client organization may have expanded into Belgium while development was under way, and the product now has to be modifi ed so it can also handle sales in Belgium. To see how a change in requirements can affect the software life cycle, suppose that the client’s requirements change while the design is being developed. The software engineering team has to suspend development and modify the specifi cation document to refl ect the changed requirements. Furthermore, it then may be necessary to modify the design as well, if the changes to the specifi cations necessitate corresponding changes to those portions of the design already completed. Only when these changes have been made can development proceed. In other words, developers have to perform “maintenance” long before the product is installed.",
+    "question": "What is a common reason for delays in software construction?",
+    "correct_answer": "client’s requirements may well change",
+    "distractors": [
+      "the software engineering team has to suspend development",
+      "there is a problem with the computer",
+      "the programmer has to learn a new programming language"
+    ],
+    "options": {
+      "A": "there is a problem with the computer",
+      "B": "the software engineering team has to suspend development",
+      "C": "client’s requirements may well change",
+      "D": "the programmer has to learn a new programming language"
+    },
+    "answer_key": "C",
+    "metadata": {
+      "timestamp": "2026-07-01T14:44:07.851038",
+      "chunk_token_count": 208,
+      "keywords": [
+        "changing requirements",
+        "software life cycle",
+        "specification modification",
+        "design update",
+        "maintenance"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00065",
+    "title": "Problems with Classical Development-Then-Maintenance Model",
+    "context": "2. A second problem with the classical development-then-maintenance model arose as a result of the way in which we now construct software. In classical software engineering, a characteristic of development was that the development team built the target product starting from scratch. In contrast, as a consequence of the high cost of software production today, wherever possible developers try to reuse parts of existing software products in the software product to be constructed (reuse is discussed in detail in Chapter 8 ). Therefore, the development-then-maintenance model is inappropriate today because reuse is so widespread.  \nA more realistic way of looking at maintenance is that given in the standard for lifecycle processes published by the International Organization for Standardization (ISO)  \nThe International Organization for Standardization (ISO) is a network of the national standards institutes of 147 countries, with a central secretariat based in Geneva, Switzerland. ISO has published over 13,500 internationally accepted standards, ranging from standards for photographic fi lm speed (“ISO number”) to many of the standards presented in this book. For example, ISO 9000 is discussed in Chapter 3 .",
+    "question": "What is the central secretariat of the ISO?",
+    "correct_answer": "Geneva, Switzerland",
+    "distractors": [
+      "Europe",
+      "USA",
+      "China"
+    ],
+    "options": {
+      "A": "Europe",
+      "B": "China",
+      "C": "USA",
+      "D": "Geneva, Switzerland"
+    },
+    "answer_key": "D",
+    "metadata": {
+      "timestamp": "2026-07-01T14:44:07.851252",
+      "chunk_token_count": 223,
+      "keywords": [
+        "development-then-maintenance model",
+        "software reuse",
+        "ISO standards",
+        "lifecycle processes",
+        "maintenance"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00066",
+    "title": "ISO Naming and Software Maintenance Definitions",
+    "context": "ISO is not an acronym. It is derived from the Greek word , meaning equal, the root of the English prefi x iso- found in words such as isotope, isobar, and isosceles. The International Organization for Standardization chose ISO as the short form of its name to avoid having multiple acronyms arising from the translation of the name “International Organization for Standardization” into the languages of the different member countries. Instead, to achieve international standardization, a universal short form of its name was chosen.  \nand the International Electrotechnical Commission (IEC). That is, maintenance is the process that occurs when “software undergoes modifi cations to code and associated documentation due to a problem or the need for improvement or adaptation” [ISO/IEC 12207, 1995]. In terms of this operational defi nition , maintenance occurs whenever a fault is fi xed or the requirements change, irrespective of whether this takes place before or after installation of the product. The Institute for Electrical and Electronics Engineers (IEEE) and the Electronic Industries Alliance (EIA) subsequently adopted this defi nition [IEEE/EIA 12207.0-1996, 1998] when IEEE standards were modifi ed to comply with ISO/IEC 12207. (See Just in Case You Wanted to Know Box 1.4 for more on ISO.)\n\nIn this book, the term postdelivery maintenance refers to the 1990 IEEE defi nition of maintenance as any change to the software after it has been delivered and installed on the client’s computer, and modern maintenance or just maintenance refers to the 1995 ISO/IEC defi nition of corrective, perfective, or adaptive activities performed at any time. Postdelivery maintenance is therefore a subset of (modern) maintenance.",
+    "question": "What does the term postdelivery maintenance refer to?",
+    "correct_answer": "the 1990 IEEE defi nition of maintenance as any change to the software after it has been delivered and installed on the client’s computer",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "[N/A]",
+      "B": "[N/A]",
+      "C": "[N/A]",
+      "D": "the 1990 IEEE defi nition of maintenance as any change to the software after it has been delivered and installed on the client’s computer"
+    },
+    "answer_key": "D",
+    "metadata": {
+      "timestamp": "2026-07-01T14:44:07.851396",
+      "chunk_token_count": 374,
+      "keywords": [
+        "ISO",
+        "maintenance",
+        "postdelivery maintenance",
+        "IEEE",
+        "ISO/IEC 12207"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00067",
+    "title": "Importance of Postdelivery Software Maintenance",
+    "context": "## 1.3.2 The Importance of Postdelivery Maintenance  \nIt is sometimes said that only bad software products undergo postdelivery maintenance. In fact, the opposite is true: Bad products are thrown away, whereas good products are repaired and enhanced, for 10, 15, or even 20 years. Furthermore, a software product is a model of the real world, and the real world is perpetually changing. As a consequence, software has to be maintained constantly for it to remain an accurate reflection of the real world.  \nFor instance, if the sales tax rate changes from 6 to 7 percent, almost every software product that deals with buying or selling has to be changed. Suppose the product contains the C++ statement  \n$$\n\\text { const   float   salesTax } = 6. 0;\n$$  \nor the equivalent Java statement  \n$$\n\\text { public   static   final   float   salesTax } = (\\text { float }) 6. 0;\n$$",
+    "question": "What is the term for the process of maintaining software after its initial deployment?",
+    "correct_answer": "postdelivery maintenance",
+    "distractors": [
+      "predeployment maintenance",
+      "deployment maintenance",
+      "postdeployment maintenance"
+    ],
+    "options": {
+      "A": "postdeployment maintenance",
+      "B": "deployment maintenance",
+      "C": "predeployment maintenance",
+      "D": "postdelivery maintenance"
+    },
+    "answer_key": "D",
+    "metadata": {
+      "timestamp": "2026-07-01T14:44:07.851555",
+      "chunk_token_count": 205,
+      "keywords": [
+        "postdelivery maintenance",
+        "software product",
+        "real world changes",
+        "sales tax",
+        "code modification"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00068",
+    "title": "Using Named Constants vs Hardcoded Values in Software Maintenance",
+    "context": "$$\n\\text { public   static   final   float   salesTax } = (\\text { float }) 6. 0;\n$$  \ndeclaring that salesTax is a fl oating-point constant initialized to the value 6.0. In this case, maintenance is relatively simple. With the aid of a text editor the value 6.0 is replaced by 7.0 and the code is recompiled and relinked. However, if instead of using the name salesTax, the actual value 6.0 has been used in the product wherever the value of the sales tax is invoked, then such a product is extremely diffi cult to modify. For example, there may be occurrences of the value 6.0 in the source code that should be changed to 7.0 but are overlooked, or instances of 6.0 that do not refer to sales tax but are incorrectly changed to 7.0. Finding these faults almost always is diffi cult and time consuming. In fact, with some software, it might be less expensive in the long run to throw away the product and recode it rather than try to determine which of the many constants need to be changed and how to make the modifi cations.  \nThe real-time real world also is constantly changing. The missiles with which a jet fi ghter is armed may be replaced by a new model, requiring a change to the weapons control component of the associated avionics system. A six-cylinder engine is to be offered as an option in a popular four-cylinder automobile; this implies changing the onboard computers that control the fuel injection system, timing, and so on.",
+    "question": "What is the problem with using hardcoded values in software?",
+    "correct_answer": "difficult to modify",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "[N/A]",
+      "B": "difficult to modify",
+      "C": "[N/A]",
+      "D": "[N/A]"
+    },
+    "answer_key": "B",
+    "metadata": {
+      "timestamp": "2026-07-01T14:44:07.851698",
+      "chunk_token_count": 339,
+      "keywords": [
+        "named constant",
+        "hardcoded value",
+        "software maintenance",
+        "real-time system",
+        "code modification"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00069",
+    "title": "Postdelivery Maintenance Cost Trends",
+    "context": "But just how much time (= money) is devoted to postdelivery maintenance? The pie chart in Figure 1.3(a) shows that, some 40 years ago, approximately two-thirds of total software costs went to postdelivery maintenance; the data were obtained by averaging information from various sources, including [Elshoff, 1976], [Daly, 1977], [Zelkowitz, Shaw, and Gannon, 1979], and [Boehm, 1981]. Newer data show that an even larger proportion is devoted to postdelivery maintenance. Many organizations devote 70–80 percent or more of their software budget to postdelivery maintenance [Yourdon, 1992; Hatton, 1998], as shown in Figure 1.3(b) .  \nSurprisingly, the average cost percentages of the classical development phases have hardly changed. This is shown in Figure 1.4 , which compares the data used to derive Figure 1.3(a) with more recent data on 132 Hewlett-Packard projects [Grady, 1994].  \nFIGURE 1.3 Approximate average cost percentages of development and postdelivery maintenance (a) between 1976 and 1981 and (b) between 1992 and 1998.  \n![image](https://cdn-mineru.openxlab.org.cn/result/2026-06-28/1ce9ee98-da07-4d0b-847b-a174047bcb19/8a53c80399f62d957e7f083845846ce354968b71a617b9153fe41b130035dd9d.jpg)  \n![image](https://cdn-mineru.openxlab.org.cn/result/2026-06-28/1ce9ee98-da07-4d0b-847b-a174047bcb19/baf5fea25a3259a1f227a747e8ecc4e79f9971749fd5a53c57479e68d9b079d1.jpg)",
+    "question": "What percent of the budget is devoted to postdelivery maintenance?",
+    "correct_answer": "70–80 percent",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "[N/A]",
+      "B": "[N/A]",
+      "C": "70–80 percent",
+      "D": "[N/A]"
+    },
+    "answer_key": "C",
+    "metadata": {
+      "timestamp": "2026-07-01T14:44:07.851924",
+      "chunk_token_count": 434,
+      "keywords": [
+        "postdelivery maintenance",
+        "software cost",
+        "development phases",
+        "cost percentages",
+        "historical data"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00073",
+    "title": "Cost of Fault Correction Increases Across Development Lifecycle",
+    "context": "The reason that the cost of correcting a fault increases so steeply is related to what has to be done to correct a fault. Early in the development life cycle, the product essentially exists only on paper, and correcting a fault may simply mean making a change to a document. The other extreme is a product already delivered to a client. At the very least, correcting a fault at that time means editing the code, recompiling and relinking it, and then carefully testing that the problem is solved. Next, it is critical to check that making the change has not created a new problem elsewhere in the product. All the relevant documentation, including manuals, needs to be updated. Finally, the corrected product must be delivered and reinstalled. The moral of the story is this: We must fi nd faults early or else it will cost us money. We therefore should employ techniques for detecting faults during the requirements and analysis (specifi cation) phases.  \nFIGURE 1.6 The solid line depicts the points on the solid line of Figure 1.5 plotted on a linear scale. The dashed line depicts newer data.  \n![image](https://cdn-mineru.openxlab.org.cn/result/2026-06-28/1ce9ee98-da07-4d0b-847b-a174047bcb19/e8ed83530d4c60fd796c1da2f9cda8d48983aa3ffa8c97612b118431e285b19e.jpg)",
+    "question": "What is the reason that the cost of correcting a fault increases so steeply?",
+    "correct_answer": "The reason that the cost of correcting a fault increases so steeply is related to what has to be done to correct a fault.",
+    "distractors": [
+      "Faults are not caught at the beginning of the development life cycle.",
+      "It is difficult to find faults.",
+      "Faults are not caught at the very least."
+    ],
+    "options": {
+      "A": "Faults are not caught at the very least.",
+      "B": "It is difficult to find faults.",
+      "C": "The reason that the cost of correcting a fault increases so steeply is related to what has to be done to correct a fault.",
+      "D": "Faults are not caught at the beginning of the development life cycle."
+    },
+    "answer_key": "C",
+    "metadata": {
+      "timestamp": "2026-07-01T14:44:07.852091",
+      "chunk_token_count": 312,
+      "keywords": [
+        "fault correction cost",
+        "development life cycle",
+        "early detection",
+        "testing",
+        "documentation"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00074",
+    "title": "Fault Distribution in Software Life Cycle",
+    "context": "There is a further need for such techniques. Studies have shown [Boehm, 1979] that between 60 and 70 percent of all faults detected in large projects are requirements, analysis, or design faults. Newer results from inspections bear out this preponderance of requirements, analysis, or design faults (an inspection is a meticulous examination of a document by a team, as described in Section 6.2.3). During 203 inspections of Jet Propulsion Laboratory software for the NASA unmanned interplanetary space program, on average, about 1.9 faults were detected per page of a specifi cation document, 0.9 faults per page of a design, but only 0.3 faults per page of code [Kelly, Sherif, and Hops, 1992].  \nTherefore it is important that we improve our requirements, analysis, and design techniques, not only so that faults can be found as early as possible but also because requirements, analysis, and design faults constitute such a large proportion of all faults. Just as the example in Section 1.3 showed that reducing postdelivery maintenance costs by 10 percent reduces overall costs by about 7.5 percent, reducing requirements, analysis, and design faults by 10 percent reduces the overall number of faults by 6–7 percent.  \nThat so many faults are introduced early in the software life cycle highlights another important aspect of software engineering: techniques that yield better requirements, specifi cations, and designs.\n\nMost software is produced by a team of software engineers rather than by a single individual responsible for every aspect of the development and maintenance life cycle. We now consider the implications of this.",
+    "question": "What is the main cause of faults in software?",
+    "correct_answer": "requirements, analysis, or design faults",
+    "distractors": [
+      "code faults",
+      "inspection faults",
+      "design faults"
+    ],
+    "options": {
+      "A": "code faults",
+      "B": "requirements, analysis, or design faults",
+      "C": "design faults",
+      "D": "inspection faults"
+    },
+    "answer_key": "B",
+    "metadata": {
+      "timestamp": "2026-07-01T14:44:07.852262",
+      "chunk_token_count": 342,
+      "keywords": [
+        "requirements faults",
+        "design faults",
+        "inspection",
+        "software life cycle",
+        "team development"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00075",
+    "title": "Team Development and Hardware Cost Trends",
+    "context": "## 1.5 Team Development Aspects  \nThe cost of hardware continues to decrease rapidly. A mainframe computer of the 1950s that cost in excess of a million preinfl ation dollars was considerably less powerful in every way than a laptop computer of today costing less than $1000. As a result, organizations easily can afford hardware that can run large products, that is, products too large (or too complex) to be implemented by one person within the allowed time constraints. For example, if a product has to be delivered within 18 months but would take a single software professional 15 years to complete, then the product must be developed by a team. However, team development leads to interfacing problems among code components and communication problems among team members.",
+    "question": "What is a result of the rapid decrease in cost of hardware?",
+    "correct_answer": "organizations easily can afford hardware that can run large products",
+    "distractors": [
+      "the cost of a laptop computer exceeds that of a mainframe computer",
+      "a laptop computer is considerably less powerful than a mainframe computer",
+      "a mainframe computer can run large products"
+    ],
+    "options": {
+      "A": "the cost of a laptop computer exceeds that of a mainframe computer",
+      "B": "a laptop computer is considerably less powerful than a mainframe computer",
+      "C": "organizations easily can afford hardware that can run large products",
+      "D": "a mainframe computer can run large products"
+    },
+    "answer_key": "C",
+    "metadata": {
+      "timestamp": "2026-07-01T14:44:07.852394",
+      "chunk_token_count": 156,
+      "keywords": [
+        "hardware cost",
+        "team development",
+        "interfacing problems",
+        "communication problems"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00076",
+    "title": "Argument Order Mismatch in Module Interfaces",
+    "context": "For example, Jeff and Juliet code modules p and q, respectively, where module p calls module q. When Jeff codes p, he inserts a call to q with fi ve arguments in the argument list. Juliet codes q with fi ve arguments, but in a different order from those of Jeff. Some software tools, such as the Java interpreter and loader, or lint for C (Section 8.11.4), detect such a type violation but only if the interchanged arguments are of different types; if they are of the same type, then the problem may not be detected for a long period of time. It may be debated that this is a design problem, and if the modules had been more carefully designed, this problem would not have happened. That may be true, but in practice a design often is changed after coding commences, and notifi cation of a change may not be distributed to all members of the development team. Therefore, when a design that affects two or more programmers has been changed, poor communication can lead to the interface problems Jeff and Juliet experienced. This sort of problem is less likely to occur when only one individual is responsible for every aspect of the product, as was the case before powerful computers that can run huge products became affordable.",
+    "question": "What is one possible solution to the problem of an argument order mismatch in module interfaces?",
+    "correct_answer": "a design often is changed after coding commences, and notifi cation of a change may not be distributed to all members of the development team",
+    "distractors": [
+      "the software tools should be designed to detect such a type violation and fail if the arguments are of the same type",
+      "the users of the software should be informed of the mismatch before they start coding",
+      "the individual should be responsible for every aspect of the product"
+    ],
+    "options": {
+      "A": "a design often is changed after coding commences, and notifi cation of a change may not be distributed to all members of the development team",
+      "B": "the users of the software should be informed of the mismatch before they start coding",
+      "C": "the software tools should be designed to detect such a type violation and fail if the arguments are of the same type",
+      "D": "the individual should be responsible for every aspect of the product"
+    },
+    "answer_key": "A",
+    "metadata": {
+      "timestamp": "2026-07-01T14:44:07.852512",
+      "chunk_token_count": 254,
+      "keywords": [
+        "argument order",
+        "module interface",
+        "type violation",
+        "design change",
+        "communication"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00077",
+    "title": "Team Organization and Software Engineering Scope",
+    "context": "But interfacing problems are merely the tip of the iceberg when it comes to problems that can arise when software is developed by teams. Unless the team is properly organized, an inordinate amount of time can be wasted in conferences between team members. Suppose that a product takes a single programmer 1 year to complete. If the same task is assigned to a team of six programmers, the time for completing the task frequently is closer to 1 year than the expected 2 months, and the quality of the resulting code may well be lower than if the entire task had been assigned to one individual (see Section 4.1). Because a considerable proportion of today’s software is developed and maintained by teams, the scope of software engineering must include techniques for ensuring that teams are properly organized and managed.  \nAs has been shown in the preceding sections, the scope of software engineering is extremely broad. It includes every step of the software life cycle, from requirements to postdelivery retirement. It also includes human aspects, such as team organization; economic aspects; and legal aspects, such as copyright law. All these aspects implicitly are incorporated in the defi nition of software engineering given at the beginning of this chapter, that software engineering is a discipline whose aim is the production of fault-free soft ware delivered on time, within budget, and satisfying the user’s needs.\n\nWe return to the classical phases of Figure 1.2 to ask why there is no planning, testing, or documentation phase.",
+    "question": "What does the software engineering discipline include?",
+    "correct_answer": "production of fault-free soft ware delivered on time, within budget, and satisfying the user’s needs.",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "[N/A]",
+      "B": "production of fault-free soft ware delivered on time, within budget, and satisfying the user’s needs.",
+      "C": "[N/A]",
+      "D": "[N/A]"
+    },
+    "answer_key": "B",
+    "metadata": {
+      "timestamp": "2026-07-01T14:44:07.852631",
+      "chunk_token_count": 296,
+      "keywords": [
+        "team organization",
+        "software life cycle",
+        "human aspects",
+        "economic aspects",
+        "legal aspects"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00078",
+    "title": "Why There Is No Planning Phase in Software Development",
+    "context": "## 1.6 Why There Is No Planning Phase  \nClearly it is impossible to develop a software product without a plan. Accordingly, it appears to be essential to have a planning phase at the very beginning of the project.  \nThe key point is that, until it is known exactly what is to be developed, there is no way an accurate, detailed plan can be drawn up. Therefore, three types of planning activities take place when a software product is developed using the classical paradigm:  \n1. At the beginning of the project, preliminary planning takes place for managing the requirements and analysis phases.  \n2. Once what is going to be developed is known precisely, the software project management plan (SPMP) is drawn up. This includes the budget, staffi ng requirements, and detailed schedule. The earliest we can draw up the project management plan is when the specifi cation document has been approved by the client, that is, at the end of the analysis phase. Until that time, planning has to be preliminary and partial.  \n3. All through the project, management needs to monitor the SPMP and be on the watch for any deviation from the plan.",
+    "question": "What is the purpose of the planning phase?",
+    "correct_answer": "to develop a software product without a plan",
+    "distractors": [
+      "to plan the time and budget for developing a software product",
+      "to develop a software product without a plan",
+      "to develop a software product with a plan"
+    ],
+    "options": {
+      "A": "to develop a software product with a plan",
+      "B": "to develop a software product without a plan",
+      "C": "to plan the time and budget for developing a software product",
+      "D": "to develop a software product without a plan"
+    },
+    "answer_key": "B",
+    "metadata": {
+      "timestamp": "2026-07-01T14:44:07.852719",
+      "chunk_token_count": 235,
+      "keywords": [
+        "planning phase",
+        "software project management plan",
+        "analysis phase",
+        "preliminary planning",
+        "SPMP"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00079",
+    "title": "Project Monitoring and Design Phase Management",
+    "context": "For example, suppose that the SPMP for a specifi c project states that the project as a whole will take 16 months and that the design phase will take 4 of those months. After a year, management notices that the project as a whole seems to be progressing much more slowly than anticipated. A detailed investigation shows that, so far, 8 months have been devoted to the design phase, which is still far from complete. The project almost certainly will have to be abandoned, and the funds spent to date are wasted. Instead, management should have tracked progress by phase, and noticed, after at most 2 months, a serious problem in the design phase. At that time, a decision could have been made how best to proceed. The usual initial step in such a situation is to call in a consultant to determine if the project is feasible and to determine whether the design team is competent to carry out the task or the risk of proceeding is too great. Based on the report of the consultant, various alternatives are now considered, including reducing the scope of the target product, and then designing and implementing a less ambitious one. Only if all other alternatives are considered unworkable does the project have to be canceled. In the case of the specifi c project, this cancellation would have taken place some 6 months earlier if management had monitored the plan closely, saving a considerable sum of money.\n\nIn conclusion, there is no separate planning phase. Instead, planning activities are carried out all through the life cycle. However, there are times when planning activities predominate. These include the beginning of the project (preliminary planning) and directly after the specifi cation document has been signed off on by the client (software project management plan).",
+    "question": "What is the normal way to determine if a project is feasible?",
+    "correct_answer": "the risk of proceeding is too great",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "[N/A]",
+      "B": "the risk of proceeding is too great",
+      "C": "[N/A]",
+      "D": "[N/A]"
+    },
+    "answer_key": "B",
+    "metadata": {
+      "timestamp": "2026-07-01T14:44:07.852800",
+      "chunk_token_count": 352,
+      "keywords": [
+        "SPMP",
+        "design phase",
+        "project monitoring",
+        "consultant",
+        "life cycle planning"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00080",
+    "title": "Why There Is No Separate Testing Phase",
+    "context": "## 1.7 Why There Is No Testing Phase  \nIt is essential to check a software product meticulously after it has been developed. Accordingly, it is reasonable to ask why there is no testing phase after the product has been implemented.  \nUnfortunately, checking a software product once it is ready to be delivered to the client is far too late. For instance, if there is a fault in the specifi cation document, this fault will have been carried forward into the design and implementation. There are times in the software process when testing is carried out almost to the total exclusion of other activities. This occurs toward the end of each phase ( verifi cation ) and is especially true before the product is handed over to the client ( validation ). Although there are times when testing predominates, there should never be times when no testing is being performed. If testing is treated as a separate ( testing ) phase , then there is a very real danger that testing will not be carried out constantly throughout every phase of the product development and maintenance process.  \nBut even this is not enough. What is needed is continual checking of a software product. Meticulous checking should automatically accompany every software development and maintenance activity. A separate testing phase is incompatible with the goal of ensuring that a software product is as fault free as possible at all times.\n\nEvery software development organization should contain an independent group whose primary responsibility is to ensure that the delivered product is what the client needs and that the product has been built correctly in every way. This group is called the software quality assurance (SQA) group. The quality of software is the extent to which it meets its specifi cations. Quality and software quality assurance are described in more detail in Chapter 6 , as is the role of SQA in setting and enforcing standards.",
+    "question": "What is the primary responsibility of the SQA group?",
+    "correct_answer": "ensuring that the delivered product is what the client needs and that the product has been built correctly in every way",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "[N/A]",
+      "B": "[N/A]",
+      "C": "ensuring that the delivered product is what the client needs and that the product has been built correctly in every way",
+      "D": "[N/A]"
+    },
+    "answer_key": "C",
+    "metadata": {
+      "timestamp": "2026-07-01T14:44:27.922518",
+      "chunk_token_count": 361,
+      "keywords": [
+        "testing phase",
+        "continual checking",
+        "software quality assurance",
+        "SQA",
+        "fault free"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00081",
+    "title": "Why Documentation Should Not Be a Separate Phase",
+    "context": "## 1.8 Why There Is No Documentation Phase  \nJust as there should never be a separate planning phase or testing phase, there also should never be a separate documentation phase . On the contrary, at all times, the documentation of a software product must be complete, correct, and up to date. For instance, during the analysis phase, the specifi cation document must refl ect the current version of the specifi cations, and this is also true for the other phases.  \n1. One reason why it is essential to ensure that the documentation is always up to date is the large turnover in personnel in the software industry. For example, suppose that the design documentation has not been kept current and the chief designer leaves to take another job. It is now extremely hard to update the design document to refl ect all the changes made while the system was being designed.  \n2. It is almost impossible to perform the steps of a specifi c phase unless the documentation of the previous phase is complete, correct, and up to date. For instance, an incomplete specifi cation document must inevitably result in an incomplete design and then in an incomplete implementation.  \n3. It is virtually impossible to test whether a software product is working correctly unless documents are available that state how that software product is supposed to behave.\n\n4. Maintenance is almost impossible unless there is a complete and correct set of documentation that describes precisely what the current version of the product does.  \nTherefore, just as there is no separate planning phase or testing phase, there is no separate documentation phase. Instead, planning, testing, and documentation should be activities that accompany all other activities while a software product is being constructed.  \nNow we examine the object-oriented paradigm.",
+    "question": "What is one reason why it is essential to ensure that the documentation is always up to date?",
+    "correct_answer": "the large turnover in personnel in the software industry",
+    "distractors": [
+      "it is impossible to perform the steps of a specifi c phase",
+      "the system is in the testing phase",
+      "there is a separate documentation phase"
+    ],
+    "options": {
+      "A": "the large turnover in personnel in the software industry",
+      "B": "the system is in the testing phase",
+      "C": "it is impossible to perform the steps of a specifi c phase",
+      "D": "there is a separate documentation phase"
+    },
+    "answer_key": "A",
+    "metadata": {
+      "timestamp": "2026-07-01T14:44:27.922700",
+      "chunk_token_count": 347,
+      "keywords": [
+        "documentation phase",
+        "software development",
+        "personnel turnover",
+        "specification document",
+        "maintenance"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00083",
+    "title": "Classical Paradigm Limitations in Software Maintenance",
+    "context": "2. The classical paradigm did not live up to earlier expectations during postdelivery maintenance. A major driving force behind the development of the classical paradigm some 40 years ago was that, on average, two-thirds of the software budget was being devoted to postdelivery maintenance (see Figure 1.3 ). Unfortunately, the classical paradigm has not solved this problem; as pointed out in Section 1.3.2, many organizations still spend 70–80 percent or more of their time and effort on postdelivery maintenance [Yourdon, 1992; Hatton, 1998].  \nA major reason for the limited success of the classical paradigm is that classical techniques are either operation oriented or attribute (data) oriented but not both. The basic components of a software product are the operations of the product and the attributes on which those operations operate. For example, determine_average_height <sup>1</sup> is an operation that operates on a collection of heights (attributes) and returns the average of those heights (attribute). Some classical techniques, such as data fl ow analysis (Section 14.3), are operation oriented. That is, such techniques concentrate on the operations of the product; the attributes are of secondary importance. Conversely, techniques such as Jackson system development (Section 14.5) are attribute oriented. The emphasis here is on the attributes; the operations that operate on the attributes are less signifi cant.",
+    "question": "What percentage of the budget was devoted to postdelivery maintenance?",
+    "correct_answer": "two-thirds",
+    "distractors": [
+      "30 percent",
+      "80 percent",
+      "70 percent"
+    ],
+    "options": {
+      "A": "70 percent",
+      "B": "80 percent",
+      "C": "two-thirds",
+      "D": "30 percent"
+    },
+    "answer_key": "C",
+    "metadata": {
+      "timestamp": "2026-07-01T14:44:27.922872",
+      "chunk_token_count": 287,
+      "keywords": [
+        "classical paradigm",
+        "postdelivery maintenance",
+        "operation oriented",
+        "attribute oriented"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00084",
+    "title": "Object-Oriented Paradigm: Attributes and Operations",
+    "context": "In contrast, the object-oriented paradigm considers both attributes and operations to be equally important. A simplistic way of looking at an object is as a unifi ed software artifact that incorporates both the attributes and the operations performed on the attributes (an artifact is a component of a software product, such as a specifi cation document, a code module, or a manual). This defi nition of an object is incomplete and is fl eshed out later in the book, once inheritance has been defi ned (Section 7.8). Nevertheless, the defi nition captures much of the essence of an object.  \nFIGURE 1.7 A comparison of implementations of a bank account using (a) the classical paradigm and (b) the object oriented paradigm. The solid black line surrounding the object denotes that details as to how accountBalance i implemented are not known outside the object  \n![image](https://cdn-mineru.openxlab.org.cn/result/2026-06-28/1ce9ee98-da07-4d0b-847b-a174047bcb19/227009ed7cdb48b3a9dff8b4002de7391f81ad1cdf43e51bd0e78f90f1c8e737.jpg)  \n(a)  \n![image](https://cdn-mineru.openxlab.org.cn/result/2026-06-28/1ce9ee98-da07-4d0b-847b-a174047bcb19/42182e729c252d0276344d68a200073e253128aafe8ed11bc50194e0cbb308b7.jpg)  \n(b)",
+    "question": "What does the object-oriented paradigm consider to be equally important to attributes?",
+    "correct_answer": "operations",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "[N/A]",
+      "B": "[N/A]",
+      "C": "[N/A]",
+      "D": "operations"
+    },
+    "answer_key": "D",
+    "metadata": {
+      "timestamp": "2026-07-01T14:44:27.923028",
+      "chunk_token_count": 351,
+      "keywords": [
+        "object-oriented paradigm",
+        "attributes",
+        "operations",
+        "inheritance",
+        "object definition"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00085",
+    "title": "Bank Account Object Attributes and Operations",
+    "context": "(b)  \nA bank account is one example of an object (see Figure 1.7 ). The attribute component of the object is the accountBalance. The operations that can be performed on that account balance include deposit money in the account, withdraw money from the account, and determineBalance. The bank account object combines an attribute with the three operations performed on that attribute in a single artifact. From the viewpoint of the classical paradigm, a product that deals with banking would have to incorporate an attribute, the account_balance, and three operations, deposit, withdraw, and determine_balance.",
+    "question": "What is an example of an object?",
+    "correct_answer": "bank account",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "[N/A]",
+      "B": "[N/A]",
+      "C": "[N/A]",
+      "D": "bank account"
+    },
+    "answer_key": "D",
+    "metadata": {
+      "timestamp": "2026-07-01T14:44:27.923218",
+      "chunk_token_count": 115,
+      "keywords": [
+        "bank account",
+        "object",
+        "attribute",
+        "operations",
+        "deposit",
+        "withdraw"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00088",
+    "title": "Object-Oriented Paradigm Benefits in Software Maintenance and Development",
+    "context": "1. Consider postdelivery maintenance. Suppose that the banking product has been constructed using the classical paradigm. If the way an account_balance is represented is changed from (say) an integer to a fi eld of a structure, then every part of that product that has anything to do with an account_balance has to be changed, and these changes have to be made consistently. In contrast, if the object-oriented paradigm is used, then changes need be made only within the bank account object itself. No other part of the product has knowledge of how an accountBalance is implemented, so no other part can have access to an accountBalance. Consequently, no other part of the banking product needs to be changed. Accordingly, the object-oriented paradigm makes maintenance quicker and easier, and the chance of introducing a regression fault (that is, a fault inadvertently introduced into one part of a product as a consequence of making an apparently unrelated change to another part of the product) is greatly reduced.\n\n2. In addition to maintenance, the object-oriented paradigm also makes development easier. In many instances, an object has a physical counterpart. For example, a bank account object in the bank product corresponds to an actual bank account in the bank for which this product is being implemented. As will be shown in Part B, modeling plays a major role in the object-oriented paradigm. The close correspondence between the objects in a product and their counterparts in the real world should lead to better-quality software.",
+    "question": "What is the object-oriented paradigm used for?",
+    "correct_answer": "development and maintenance",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "[N/A]",
+      "B": "[N/A]",
+      "C": "[N/A]",
+      "D": "development and maintenance"
+    },
+    "answer_key": "D",
+    "metadata": {
+      "timestamp": "2026-07-01T14:44:27.923312",
+      "chunk_token_count": 291,
+      "keywords": [
+        "object-oriented paradigm",
+        "maintenance",
+        "development",
+        "modeling",
+        "real world"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00089",
+    "title": "Object-Oriented Design Principles: Encapsulation and Independence",
+    "context": "3. Well-designed objects are independent units. As has been explained, an object consists of both attributes and the operations performed on the attributes. If all the operations performed on the attributes of an object are included in that object, then the object can be considered a conceptually independent entity. Everything in the product that relates to the portion of the real world modeled by that object can be found in the object itself. This conceptual independence sometimes is termed encapsulation (Section 7.4). But there is an additional form of independence, physical independence. In a well-designed object, information hiding ensures that implementation details are hidden from everything outside that object. The only allowable form of communication is sending a message to the object to carry out a specifi c operation. The way that the operation is carried out is entirely the responsibility of the object itself. For this reason, object-oriented design sometimes is referred to as responsibility-driven design [Wirfs-Brock, Wilkerson, and Wiener, 1990] or design by contract [Meyer, 1992]. (For another view of responsibility-driven design, see Just in Case You Wanted to Know Box 1.5, derived from an example in [Budd, 2002].) Another way of looking at both encapsulation and information hiding is as instances of separation of concerns (Section 5.4).\n\n4. A product built using the classical paradigm is implemented as a set of modules, but conceptually it is essentially a single unit. This is one reason why the classical paradigm has been less successful when applied to larger products. In contrast, when the objectoriented paradigm is used correctly, the resulting product consists of a number of smaller, largely independent units. The object-oriented paradigm reduces the level of complexity of a software product and hence simplifi es both development and maintenance.",
+    "question": "What is encapsulation?",
+    "correct_answer": "Well-designed objects are independent units. As has been explained, an object consists of both attributes and the operations performed on the attributes. If all the operations performed on the attributes of an object are included in that object, then the object can be considered a conceptually independent entity. Everything in the product that relates to the portion of the real world modeled by that object can be found in the object itself. This conceptual independence sometimes is termed encapsulation (Section 7.4).",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "[N/A]",
+      "B": "[N/A]",
+      "C": "[N/A]",
+      "D": "Well-designed objects are independent units. As has been explained, an object consists of both attributes and the operations performed on the attributes. If all the operations performed on the attributes of an object are included in that object, then the object can be considered a conceptually independent entity. Everything in the product that relates to the portion of the real world modeled by that object can be found in the object itself. This conceptual independence sometimes is termed encapsulation (Section 7.4)."
+    },
+    "answer_key": "D",
+    "metadata": {
+      "timestamp": "2026-07-01T14:44:27.923420",
+      "chunk_token_count": 369,
+      "keywords": [
+        "encapsulation",
+        "information hiding",
+        "responsibility-driven design",
+        "separation of concerns",
+        "object-oriented paradigm"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00090",
+    "title": "Information Hiding and Object-Oriented Reuse",
+    "context": "# Just in Case You Wanted to Know  \nSuppose that you live in New Orleans, and you want to send a Mother’s Day bouquet to your mother in Chicago. One strategy would be to consult the Chicago yellow pages (on the World Wide Web), determine which fl orist is located closest to your mother’s apartment, and place your order with that fl orist. A more convenient way is to order the fl owers at 1-800-fl owers.com, leaving the total responsibility for delivering the fl owers to that company. It is irrelevant where 1-800-fl owers.com is physically located or which fl orist is given your order to deliver. In any event, the company does not divulge that information, an instance of information hiding.  \nIn exactly the same way, when a message is sent to an object, not only is it entirely irrelevant how the request is carried out, but the unit that sends the message is not even allowed to know the internal structure of the object. The object itself is entirely responsible for every detail of carrying out the message.  \n5. The object-oriented paradigm promotes reuse; because objects are independent entities, they can generally be utilized in future products (but see Problem 1.17). This reuse of objects reduces the time and cost of both development and maintenance, as explained in Chapter 8.",
+    "question": "What is one of the reasons the object-oriented paradigm promotes reuse?",
+    "correct_answer": "reuse of objects reduces the time and cost of both development and maintenance, as explained in Chapter 8",
+    "distractors": [
+      "It helps to improve the performance of products.",
+      "It helps to reduce the time and cost of both development and maintenance.",
+      "It reduces the time and cost of both development and maintenance."
+    ],
+    "options": {
+      "A": "It reduces the time and cost of both development and maintenance.",
+      "B": "It helps to reduce the time and cost of both development and maintenance.",
+      "C": "reuse of objects reduces the time and cost of both development and maintenance, as explained in Chapter 8",
+      "D": "It helps to improve the performance of products."
+    },
+    "answer_key": "C",
+    "metadata": {
+      "timestamp": "2026-07-01T14:44:27.923593",
+      "chunk_token_count": 275,
+      "keywords": [
+        "information hiding",
+        "object-oriented paradigm",
+        "reuse",
+        "encapsulation",
+        "message passing"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00092",
+    "title": "Object-Oriented Analysis Workflow and Class Determination",
+    "context": "If the object-oriented paradigm is used instead, one of the steps of the objectoriented analysis workfl ow is to determine the classes. Because a class is a kind of module, architectural design is performed during the object-oriented analysis workfl ow.  \n<table><tr><td>Classical Paradigm</td><td>Object-Oriented Paradigm</td></tr><tr><td>1. Requirements phase</td><td>1. Requirements workflow</td></tr><tr><td>2. Analysis (specification) phase</td><td>2'. Object-oriented analysis workflow</td></tr><tr><td>3. Design phase</td><td>3'. Object-oriented design workflow</td></tr><tr><td>4. Implementation phase</td><td>4'. Object-oriented implementation workflow</td></tr><tr><td>5. Postdelivery maintenance</td><td>5. Postdelivery maintenance</td></tr><tr><td>6. Retirement</td><td>6. Retirement</td></tr><tr><td>2. Analysis (specification) phase• Determine what the product is to do</td><td>2'. Object-oriented analysis workflow• Determine what the product is to do• Extract the classes</td></tr><tr><td>3. Design phase• Architectural design (extract the modules)• Detailed design</td><td>3'. Object-oriented design workflow• Detailed design</td></tr><tr><td>4. Implementation phase• Code the modules in an appropriate programming language• Integrate</td><td>4'. Object-oriented implementation workflow• Code the classes in an appropriate object-oriented programming language• Integrate</td></tr></table>",
+    "question": "What is one of the steps of the object-oriented analysis workflow?",
+    "correct_answer": "determine the classes",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "[N/A]",
+      "B": "[N/A]",
+      "C": "[N/A]",
+      "D": "determine the classes"
+    },
+    "answer_key": "D",
+    "metadata": {
+      "timestamp": "2026-07-01T14:44:27.923763",
+      "chunk_token_count": 357,
+      "keywords": [
+        "object-oriented paradigm",
+        "class determination",
+        "architectural design",
+        "analysis workflow",
+        "classical paradigm"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00093",
+    "title": "Object-Oriented Analysis vs Classical Paradigm",
+    "context": "Consequently, object-oriented analysis goes further than the corresponding analysis (specifi cation) phase of the classical paradigm. This is shown in Figure 1.9 .  \nThis difference between the two paradigms has major consequences. When the classical paradigm is used, there almost always is a sharp transition between the analysis phase and the design phase. After all, the aim of the analysis phase is to determine what the product is to do, whereas the purpose of the design phase is to decide how to do it. In contrast, when object-oriented analysis is used, objects enter the life cycle from the very beginning. The objects are extracted in the analysis workfl ow, designed in the design workfl ow, and coded in the implementation workfl ow. The object-oriented paradigm is therefore an integrated approach; the transition from workfl ow to workfl ow is far smoother than with the classical paradigm, reducing the number of faults introduced during development.  \nAs already mentioned, it is inadequate to defi ne an object merely as a software artifact that encapsulates both attributes and operations and implements the principle of information hiding. A more complete defi nition is given in Chapter 7 , where objects are examined in depth.",
+    "question": "What is a major consequence of using the object-oriented paradigm?",
+    "correct_answer": "reducing the number of faults introduced during development",
+    "distractors": [
+      "object-oriented analysis is more suitable than the classical paradigm",
+      "designing in the design workfl ow",
+      "the transition from workfl ow to workfl ow is smooth"
+    ],
+    "options": {
+      "A": "object-oriented analysis is more suitable than the classical paradigm",
+      "B": "reducing the number of faults introduced during development",
+      "C": "the transition from workfl ow to workfl ow is smooth",
+      "D": "designing in the design workfl ow"
+    },
+    "answer_key": "B",
+    "metadata": {
+      "timestamp": "2026-07-01T14:44:27.923922",
+      "chunk_token_count": 245,
+      "keywords": [
+        "object-oriented analysis",
+        "classical paradigm",
+        "integrated approach",
+        "object lifecycle"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00094",
+    "title": "Object-Oriented Paradigm Overview",
+    "context": "## 1.10 The Object-Oriented Paradigm in Perspective  \nFigure 1.1 is evidence of the many shortcomings of the classical (structured) paradigm. However, the object-oriented paradigm is by no means a panacea for all ills:  \n• Like all approaches to software production, the object-oriented paradigm has to be used correctly; it is just as easy to misuse the object-oriented paradigm as any other paradigm.  \n• When correctly applied, the object-oriented paradigm can solve some (but not all) of the problems of the classical paradigm.  \n• The object-oriented paradigm has some problems of its own, as described in Section 7.9.  \n• The object-oriented paradigm is the best approach available today. However, like all technologies, it is certain to be superseded by a superior technology in the future.  \nIn this book, strengths and weaknesses of both the classical and the object-oriented paradigm are pointed out within the context of the specifi c topic under discussion. Consequently, the comparison of the two paradigms does not appear in one single place but is spread over the entire book.  \nWe now defi ne a number of software engineering terms.",
+    "question": "What does the object-oriented paradigm have in common with the classical paradigm?",
+    "correct_answer": "the object-oriented paradigm can solve some (but not all) of the problems of the classical paradigm",
+    "distractors": [
+      "the object-oriented paradigm can solve all the problems of the classical paradigm",
+      "the object-oriented paradigm is the best approach available today",
+      "the object-oriented paradigm is a panacea for all ills"
+    ],
+    "options": {
+      "A": "the object-oriented paradigm can solve some (but not all) of the problems of the classical paradigm",
+      "B": "the object-oriented paradigm is the best approach available today",
+      "C": "the object-oriented paradigm is a panacea for all ills",
+      "D": "the object-oriented paradigm can solve all the problems of the classical paradigm"
+    },
+    "answer_key": "A",
+    "metadata": {
+      "timestamp": "2026-07-01T14:44:27.924058",
+      "chunk_token_count": 239,
+      "keywords": [
+        "object-oriented paradigm",
+        "classical paradigm",
+        "software engineering",
+        "strengths and weaknesses",
+        "future technology"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00095",
+    "title": "Client, Developers, and Software Development Types",
+    "context": "## 1.11 Terminology  \nThe client is the individual who wants a product to be built (developed). The developers are the members of a team responsible for building that product. The developers may be responsible for every aspect of the software process, from the requirements onward, or they may be responsible for only the implementation of an already designed product.  \nBoth the client and developers may be part of the same organization. For example, the client may be the head actuary of an insurance company and the developers a team headed by the vice-president for software development of that insurance company. This is termed internal software development . On the other hand, with contract software the client and developers are members of totally independent organizations. For instance, the client may be a senior offi cial in the Department of Defense and the developers employees of a major defense contractor specializing in software for weapons systems. On a much smaller scale, the client may be an accountant in a one-person practice and the developer a student who earns income by developing software on a part-time basis.",
+    "question": "What is the term for developers being part of the same organization as the client?",
+    "correct_answer": "internal software development",
+    "distractors": [
+      "contact software development",
+      "professional software development",
+      "commercial software development"
+    ],
+    "options": {
+      "A": "professional software development",
+      "B": "commercial software development",
+      "C": "contact software development",
+      "D": "internal software development"
+    },
+    "answer_key": "D",
+    "metadata": {
+      "timestamp": "2026-07-01T14:44:27.924213",
+      "chunk_token_count": 212,
+      "keywords": [
+        "client",
+        "developers",
+        "internal software development",
+        "contract software development"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00096",
+    "title": "Users, Clients, and COTS Software Overview",
+    "context": "The third party involved in software production is the user . The user is the person or persons on whose behalf the client has commissioned the product and who will utilize the software. In the insurance company example, the users may be insurance agents, who will use the software to select the most appropriate policies. In some instances, the client and the user are the same person (for example, the accountant discussed previously).  \nAs opposed to expensive custom software developed for one client, multiple copies of software, such as word processors or spreadsheets, are sold at much lower prices to a large numbers of buyers. That is, the manufacturers of such software (such as Microsoft or Borland) recover the cost of developing a product by volume selling. This type of software usually is called commercial off-the-shelf (COTS) software . The earlier term for this type of software was shrink-wrapped software because the box containing the CD or diskettes, the manuals, and the license agreement almost always was shrink-wrapped. Nowadays, COTS software often is downloaded over the World Wide Web—there is no box to shrink-wrap. For this reason, COTS software nowadays sometimes is referred to as clickware . COTS software is developed for “the market”; that is, the software is not targeted to a specifi c client or users until it has been developed and is available for purchase.",
+    "question": "What is the third party involved in software production called?",
+    "correct_answer": "user",
+    "distractors": [
+      "manufacturer",
+      "client",
+      "programmer"
+    ],
+    "options": {
+      "A": "client",
+      "B": "programmer",
+      "C": "manufacturer",
+      "D": "user"
+    },
+    "answer_key": "D",
+    "metadata": {
+      "timestamp": "2026-07-01T14:44:39.903993",
+      "chunk_token_count": 276,
+      "keywords": [
+        "user",
+        "client",
+        "COTS software",
+        "commercial off-the-shelf",
+        "clickware"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00097",
+    "title": "Open‑Source Software and Linus’s Law",
+    "context": "Open-source software is becoming extremely popular. An open-source software product is developed and maintained by a team of volunteers and may be downloaded and used free of charge by anyone. Widely used open-source products include the Linux operating system, the Firefox Web browser, and the Apache Web server. The term open source refers to the availability of the source code to all, unlike most commercial products where only the executable version is sold. Because any user of an open-source product can scrutinize the source code and report faults to the developers, many open-source software products are of high quality. The expected consequence of the public nature of faults in open-source software was formalized by Raymond in The Cathedral and the Bazaar as Linus’s Law , named after Linus Torvalds, the creator of Linux [Raymond, 2000]. Linus’s Law states that “given enough eyeballs, all bugs are shallow.” In other words, if enough individuals scrutinize the source code of an open-source software product, someone should be able to locate that fault and suggest how to fi x it (but see Just in Case You Wanted to Know Box 1.6). A related principle is “Release early. Release often” [Raymond, 2000].  \nIt is self-evident that the more people who carefully examine a piece of code, the more likely it is that someone will be able to fi nd and fi x a fault in that code. Accordingly, Linus’s Law should perhaps be called “Torvalds’s Truism.”",
+    "question": "What is a consequence of the public nature of faults in open-source software?",
+    "correct_answer": "if enough individuals scrutinize the source code of an open-source software product, someone should be able to locate that fault and suggest how to fi x it",
+    "distractors": [
+      "the more people who carefully examine a piece of code, the more likely it is that someone will be able to locate that fault and suggest how to fi x it",
+      "the more people who carefully examine a piece of code, the more likely it is that someone will be able to fi x it",
+      "the more people who carefully examine a piece of code, the more likely it is that someone will be able to locate that fault"
+    ],
+    "options": {
+      "A": "if enough individuals scrutinize the source code of an open-source software product, someone should be able to locate that fault and suggest how to fi x it",
+      "B": "the more people who carefully examine a piece of code, the more likely it is that someone will be able to locate that fault",
+      "C": "the more people who carefully examine a piece of code, the more likely it is that someone will be able to fi x it",
+      "D": "the more people who carefully examine a piece of code, the more likely it is that someone will be able to locate that fault and suggest how to fi x it"
+    },
+    "answer_key": "A",
+    "metadata": {
+      "timestamp": "2026-07-01T14:44:39.904195",
+      "chunk_token_count": 312,
+      "keywords": [
+        "open-source software",
+        "Linus’s Law",
+        "source code",
+        "bug detection",
+        "Raymond"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00098",
+    "title": "Open-source testing practices and software definition",
+    "context": "That is, open-source developers tend to spend less time on testing than closed-source developers, preferring to release a new version of a product virtually as soon as it is fi nished, leaving much of the responsibility for testing to users.  \nA word used on almost every page of this book is software . Software consists of not just code in machine-readable form but also all the documentation that is an intrinsic component of every project. Software includes the specifi cation document, the design document, legal and accounting documents of all kinds, the software project management plan, and other management documents as well as all types of manuals.",
+    "question": "What is software?",
+    "correct_answer": "consists of not just code in machine-readable form but also all the documentation that is an intrinsic component of every project",
+    "distractors": [
+      "[N/A]",
+      "[N/A]",
+      "[N/A]"
+    ],
+    "options": {
+      "A": "[N/A]",
+      "B": "[N/A]",
+      "C": "[N/A]",
+      "D": "consists of not just code in machine-readable form but also all the documentation that is an intrinsic component of every project"
+    },
+    "answer_key": "D",
+    "metadata": {
+      "timestamp": "2026-07-01T14:44:39.904471",
+      "chunk_token_count": 124,
+      "keywords": [
+        "open-source",
+        "testing",
+        "software",
+        "documentation",
+        "closed-source"
+      ]
+    }
+  },
+  {
+    "chunk_id": "chunk_00099",
+    "title": "Program vs System Distinction",
+    "context": "Since the 1970s, the difference between a program and a system has become blurred. In the “good old days,” the distinction was clear. A program was an autonomous piece of code, generally in the form of a deck of punched cards that could be executed. A system was a related collection of programs. A system might consist of programs P, Q, R, and S. Magnetic tape ${ \\sf T } _ { 1 }$ was mounted, and then program P was run. It caused a deck of data cards to be read in and produced as output tapes ${ \\sf T } _ { 2 }$ and ${ \\sf T } _ { 3 } .$ . Tape $\\mathsf { T } _ { 2 }$ then was rewound, and program Q was run, producing tape ${ \\sf T } _ { 4 }$ as output. Program R now merged tapes ${ \\sf T } _ { 3 }$ and ${ \\sf T } _ { 4 }$ into tape $\\mathsf { T } _ { 5 } ; \\mathsf { T } _ { 5 }$ served as input for program S, which printed a series of reports.",
+    "question": "A system is a collection of what?",
+    "correct_answer": "programs",
+    "distractors": [
+      "programs and decks",
+      "data cards",
+      "magnetic tapes"
+    ],
+    "options": {
+      "A": "magnetic tapes",
+      "B": "data cards",
+      "C": "programs",
+      "D": "programs and decks"
+    },
+    "answer_key": "C",
+    "metadata": {
+      "timestamp": "2026-07-01T14:44:39.904565",
+      "chunk_token_count": 250,
+      "keywords": [
+        "program",
+        "system",
+        "magnetic tape",
+        "punched cards"
+      ]
+    }
+  }
+]

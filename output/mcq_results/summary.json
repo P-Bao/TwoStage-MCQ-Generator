@@ -1,0 +1,13 @@
+{
+  "total_mcqs": 87,
+  "unique_chunks": 87,
+  "answer_distribution": {
+    "D": 26,
+    "B": 18,
+    "A": 23,
+    "C": 20
+  },
+  "latex_in_question": 2,
+  "latex_in_answer": 1,
+  "timestamp": "2026-07-01T14:44:39.974749"
+}
