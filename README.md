@@ -84,7 +84,7 @@ Tất cả các file notebook trong dự án được thiết kế để chạy 
 ### Phase 2 — Chuẩn bị Dataset Đầu Vào (Local/CPU)
 Tạo dataset bằng cách lấy tài liệu dạng markdown:
 1. Đặt các tài liệu dạng `.md` vào thư mục `input/`. 
-   *(Nếu tài liệu của bạn không ở định dạng markdown, hãy tải xuống dạng markdown thông qua công cụ: [https://mineru.net/OpenSourceTools/Extractor](https://mineru.net/OpenSourceTools/Extractor))*
+   *(Nếu tài liệu của bạn không ở định dạng markdown, hãy tải xuống dạng markdown thông qua công cụ: [https://mineru.net/OpenSourceTools/Extractor](https://mineru.net/OpenSourceTools/Extractor) - Lưu ý: Cần tạo tài khoản)*
 2. Đảm bảo file `.env` đã được cấu hình đủ các biến (OPENROUTER_API_KEY, INPUT_DIR, OUTPUT_FILE...).
 3. Cài đặt thư viện và chạy script để cắt text và dùng LLM tạo chunks:
 ```bash
@@ -108,7 +108,7 @@ python scripts/evaluate.py
 
 | Service | URL | Key Required |
 |---------|-----|-------------|
-| PDF Extraction | `https://mineru.net` | None |
+| PDF Extraction | `https://mineru.net` | Account Required |
 | LLM Judge | `https://openrouter.ai/api/v1` | `OPENROUTER_API_KEY` |
 | HuggingFace | `https://huggingface.co` | `HF_TOKEN` (for Llama) |
 
